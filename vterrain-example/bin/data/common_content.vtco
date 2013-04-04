@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+
+<vtp-content file-format-version="1.1">
+	<item name="Picnic Table">
+		<type>picnic table</type>
+		<extents>-2.31, 2.32, 2.35, -2.33</extents>
+		<model filename="Culture/picnictable.ive" scale="0.0044" />
+	</item>
+	<item name="American Stopsign">
+		<type>stop sign</type>
+		<extents>-1.21, 1.18, 1.20, -1.23</extents>
+		<model filename="Culture/stopsign.ive" scale="0.01" />
+	</item>
+	<item name="Stoplight (left)">
+		<type>streetlight</type>
+		<extents>-3.48, 3.59, 3.69, -3.58</extents>
+		<model filename="Culture/stoplight_left.ive" />
+	</item>
+	<item name="Stoplight (right)">
+		<type>streetlight</type>
+		<extents>-3.24, 3.14, 3.04, -3.14</extents>
+		<model filename="Culture/stoplight_right.ive" />
+	</item>
+	<item name="Streetlight">
+		<type>streetlight</type>
+		<extents>-3.18, 3.18, 3.18, -3.18</extents>
+		<model filename="Culture/streetlight.ive" />
+	</item>
+	<item name="Steel Poles Tangent">
+		<type>utility pole</type>
+		<country>USA</country>
+		<wire_info>0, 20.1168, -1.70688, 0, 20.1168, -1.70688</wire_info>
+		<wire_info>0, 17.9832, 1.70688, 0, 17.9832, 1.70688</wire_info>
+		<wire_info>0, 15.8496, -1.70688, 0, 15.8496, -1.70688</wire_info>
+		<extents>-11.98, 11.98, 11.99, -11.98</extents>
+		<model filename="Culture/UtilityStructures/a1.obj" scale="0.3048" />
+	</item>
+	<item name="Light Angle">
+		<type>utility pole</type>
+		<country>USA</country>
+		<wire_info>0, 20.1168, -1.70688, 0, 20.1168, -1.70688</wire_info>
+		<wire_info>0, 17.3522, -1.70688, 0, 17.3522, -1.70688</wire_info>
+		<wire_info>0, 14.6121, -1.70688, 0, 14.6121, -1.70688</wire_info>
+		<extents>-14.88, 11.80, 14.88, -17.96</extents>
+		<model filename="Culture/UtilityStructures/a3.obj" scale="0.3048" />
+	</item>
+	<item name="Medium Angle">
+		<type>utility pole</type>
+		<country>USA</country>
+		<wire_info>0, 18.2565, -1.72922, 0, 18.2565, -1.72922</wire_info>
+		<wire_info>0, 15.2085, -1.72922, 0, 15.2085, -1.72922</wire_info>
+		<wire_info>0, 12.1605, -1.72922, 0, 12.1605, -1.72922</wire_info>
+		<extents>-15.43, 11.83, 15.43, -19.04</extents>
+		<model filename="Culture/UtilityStructures/a4.obj" scale="0.3048" />
+	</item>
+	<item name="Large Angle Deadend">
+		<type>utility pole</type>
+		<country>USA</country>
+		<wire_info>1.74576, 19.873, -1.85854, -1.74576, 19.873, -1.85854</wire_info>
+		<wire_info>1.74576, 16.825, -1.85854, -1.74576, 16.825, -1.85854</wire_info>
+		<wire_info>1.74576, 13.777, -1.85854, -1.74576, 13.777, -1.85854</wire_info>
+		<extents>-18.12, 14.43, 18.12, -21.81</extents>
+		<model filename="Culture/UtilityStructures/a6.obj" scale="0.3048" />
+	</item>
+	<item name="Lattice Tower">
+		<type>utility pole</type>
+		<country>USA</country>
+		<wire_info>0, 34.7777, -7.9248, 0, 34.7777, -7.9248</wire_info>
+		<wire_info>0, 25.7556, -11.1252, 0, 25.7556, -11.1252</wire_info>
+		<wire_info>0, 16.6421, -7.9248, 0, 16.6421, -7.9248</wire_info>
+		<wire_info>0, 34.7777, 7.9248, 0, 34.7777, 7.9248</wire_info>
+		<wire_info>0, 25.7556, 11.1252, 0, 25.7556, 11.1252</wire_info>
+		<wire_info>0, 16.6421, 7.9248, 0, 16.6421, 7.9248</wire_info>
+		<extents>-24.44, 24.44, 24.44, -24.44</extents>
+		<model filename="Culture/UtilityStructures/l1.obj" scale="0.3048" />
+	</item>
+	<item name="Lattice Deadend">
+		<type>utility pole</type>
+		<country>USA</country>
+		<wire_info>2.87292, 38.1,    -6.58513, -2.87292, 38.1,    -6.58513</wire_info>
+		<wire_info>2.87292, 29.0779, -9.78553, -2.87292, 29.0779, -9.78553</wire_info>
+		<wire_info>2.87292, 19.9644, -6.58513, -2.87292, 19.9644, -6.58513</wire_info>
+		<wire_info>2.87292, 38.1,     9.26447, -2.87292, 38.1,     9.26447</wire_info>
+		<wire_info>2.87292, 29.0779, 12.4649,  -2.87292, 29.0779, 12.4649</wire_info>
+		<wire_info>2.87292, 19.9644,  9.26447, -2.87292, 19.9644,  9.26447</wire_info>
+		<extents>-24.44, 24.44, 24.44, -24.44</extents>
+		<model filename="Culture/UtilityStructures/l2.obj" scale="0.3048" />
+	</item>
+	<item name="H-Frame Tangent">
+		<type>utility pole</type>
+		<country>USA</country>
+		<wire_info>0.128016, 13.9446, 0, 0.128016, 13.9446, 0</wire_info>
+		<wire_info>0.128016, 13.9446, -4.7244, 0.128016, 13.9446, -4.7244</wire_info>
+		<wire_info>0.128016, 13.9446, 4.7244, 0.128016, 13.9446, 4.7244</wire_info>
+		<extents>-11.26, 11.26, 11.26, -11.26</extents>
+		<model filename="Culture/UtilityStructures/h1.obj" scale="0.3048" />
+	</item>
+	<item name="H-Frame Hold Down">
+		<type>utility pole</type>
+		<country>USA</country>
+		<wire_info>2.6731, 15.6515, 0,	      -2.41706, 15.6515, 0</wire_info>
+		<wire_info>2.6731, 15.6515, -4.7244, -2.41706, 15.6515, -4.7244</wire_info>
+		<wire_info>2.6731, 15.6515, 4.7244,  -2.41706, 15.6515, 4.7244</wire_info>
+		<extents>-14.63, 14.63, 14.63, -14.63</extents>
+		<model filename="Culture/UtilityStructures/h3.obj" scale="0.3048" />
+	</item>
+	<item name="H-Frame Large Angle Deadend">
+		<type>utility pole</type>
+		<country>USA</country>
+		<wire_info>2.55118, 14.3256, 0,       -2.55118, 14.3256, 0</wire_info>
+		<wire_info>2.58166, 14.3256, -4.7244, -2.58166, 14.3256, -4.7244</wire_info>
+		<wire_info>2.58166, 14.3256, 4.7244,  -2.58166, 14.3256, 4.7244</wire_info>
+		<extents>-20.21, 20.75, 20.21, -19.67</extents>
+		<model filename="Culture/UtilityStructures/h4.obj" scale="0.3048" />
+	</item>
+	<item name="H-Frame Light Angle Deadend">
+		<type>utility pole</type>
+		<country>USA</country>
+		<wire_info>1.74576, 13.0302, -1.85854, -1.74576, 13.0302, -1.85854</wire_info>
+		<wire_info>1.74576, 13.0302, -9.47854, -1.74576, 13.0302, -9.47854</wire_info>
+		<wire_info>1.74576, 13.0302, 5.76146,  -1.74576, 13.0302, 5.76146</wire_info>
+		<extents>-20.88, 17.65, 20.88, -24.11</extents>
+		<model filename="Culture/UtilityStructures/h5.obj" scale="0.3048" />
+	</item>
+	<item name="Honda Civic 4-door Sedan">
+		<type>ground vehicle</type>
+		<subtype>car, automobile</subtype>
+		<creator>Forcet</creator>
+		<manufacturer>Honda</manufacturer>
+		<model-name>Civic 4-door</model-name>
+		<model-year>2002</model-year>
+		<num_wheels>4</num_wheels>
+		<colorable>true</colorable>
+		<extents>-2.99, 3.03, 3.00, -2.96</extents>
+		<model filename="Vehicles/civic/HondaCivic-v5.ive" distance="100" />
+	</item>
+	<item name="Delorean">
+		<type>ground vehicle</type>
+		<subtype>car, automobile</subtype>
+		<manufacturer>Delorean</manufacturer>
+		<num_wheels>4</num_wheels>
+		<model-name>DMC-12</model-name>
+		<extents>-2.38, 2.25, 2.39, -2.52</extents>
+		<model filename="Vehicles/delorean/Delorean-v2.ive" distance="100" />
+	</item>
+	<item name="Land Rover Discovery">
+		<type>ground vehicle</type>
+		<subtype>sports utility vehicle</subtype>
+		<manufacturer>Land Rover</manufacturer>
+		<model-name>Discovery</model-name>
+		<model-year>1997</model-year>
+		<num_wheels>4</num_wheels>
+		<colorable>true</colorable>
+		<extents>-3.13, 3.32, 3.14, -2.95</extents>
+		<model filename="Vehicles/landrover/rover-v4.ive" distance="100" />
+	</item>
+	<item name="Honda Jazz/Fit">
+		<type>ground vehicle</type>
+		<subtype>car, automobile</subtype>
+		<manufacturer>Honda</manufacturer>
+		<model-name>Jazz/Fit</model-name>
+		<model-year>2006</model-year>
+		<num_wheels>4</num_wheels>
+		<colorable>true</colorable>
+		<extents>-2.43, 2.71, 2.43, -2.16</extents>
+		<model filename="Vehicles/jazz/jazz-v5.ive" distance="100" />
+	</item>
+	<item name="Mosp1">
+		<type>ground vehicle</type>
+		<subtype>	car, automobile</subtype>
+		<creator>habalux (Teemu Haapoja)</creator>
+		<num_wheels>4</num_wheels>
+		<extents>-2.64, 2.70, 2.64, -2.58</extents>
+		<model filename="Vehicles/mosp1/mospcar4-v4.ive" />
+	</item>
+	<item name="Bronco">
+		<type>ground vehicle</type>
+		<subtype>sports utility vehicle</subtype>
+		<manufacturer>Ford</manufacturer>
+		<model-name>Bronco</model-name>
+		<model-year>1966-1990</model-year>
+		<num_wheels>4</num_wheels>
+		<colorable>true</colorable>
+		<extents>-2.68, 2.51, 2.68, -2.85</extents>
+		<model filename="Vehicles/bronco/bronco-v8.ive" distance="100" />
+	</item>
+	<item name="Hele-on bus">
+		<type>ground vehicle</type>
+		<subtype>bus</subtype>
+		<creator>Ben Discoe</creator>
+		<num_wheels>4</num_wheels>
+		<extents>-3.69, 3.71, 3.69, -3.67</extents>
+		<model filename="Vehicles/hele-on/hele-on-v7.ive" />
+	</item>
+	<item name="Boeing 747">
+		<type>air vehicle</type>
+		<manufacturer>Boeing</manufacturer>
+		<model-name>747</model-name>
+		<subtype>Boeing 747</subtype>
+		<extents>-47.43, 44.16, 47.43, -50.70</extents>
+		<model filename="Vehicles/747/747-lod00.ive" distance="200" />
+		<model filename="Vehicles/747/747-lod01.ive" distance="2000" />
+		<model filename="Vehicles/747/747-lod02.ive" distance="20000" />
+	</item>
+	<item name="Vestas V80 Wind Turbine">
+		<type>windmotor, wind turbine, wind generator</type>
+		<subtype></subtype>
+		<behavior>wind_turbine</behavior>
+		<extents>-44.35, 44.35, 44.32, -44.32</extents>
+		<model filename="Culture/vestas80_base.ive" />
+	</item>
+	<item name="Vestas V80 Wind Turbine rotor">
+		<type>unknown</type>
+		<subtype></subtype>
+		<extents>-53.84, 42.99, 42.65, -53.49</extents>
+		<model filename="Culture/vestas80_rotor.ive" />
+		<rotor_pivot>0, 80.6130, 0</rotor_pivot>
+	</item>
+	<item name="Vestas V80 Wind Turbine (static)">
+		<type>windmotor, wind turbine, wind generator</type>
+		<subtype></subtype>
+		<extents>-67.78, 65.10, 62.41, -65.08</extents>
+		<model filename="Culture/vestas80.ive" />
+	</item>
+</vtp-content>

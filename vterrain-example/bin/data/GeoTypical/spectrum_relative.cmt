@@ -1,0 +1,10 @@
+colormap1
+blend: 1
+relative: 1
+size 6
+	elev 0.0 color 255 0 0
+	elev 0.0 color 255 255 0
+	elev 0.0 color 0 255 0
+	elev 0.0 color 0 255 255
+	elev 0.0 color 0 0 255
+	elev 0.0 color 255 0 255

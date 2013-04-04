@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+
+<StructureCollection xmlns="http://www.openplans.net"
+					 xmlns:gml="http://www.opengis.net/gml"
+					 xmlns:xlink="http://www.w3.org/1999/xlink"
+					 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					 xsi:schemaLocation="http://www.openplans.net/buildings.xsd">
+
+	<gml:boundedBy>
+		<gml:Box>
+			<gml:coordinates>565390.548000000,4753702.660000000 565475.991000000,4753722.010000001</gml:coordinates>
+		</gml:Box>
+	</gml:boundedBy>
+
+	<SRS>PROJCS["UTM Zone 10, Northern Hemisphere",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4269"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-123],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["Meter",1]]</SRS>
+
+	<Building>
+		<Level FloorHeight="3.500000" StoryCount="1">
+			<Footprint>
+				<gml:Polygon>
+					<gml:outerBoundaryIs>
+						<gml:LinearRing>
+							<gml:coordinates>565475.191,4753719.63 565458.091,4753718.83 565459.191,4753704.43 565475.991,4753705.13</gml:coordinates>
+						</gml:LinearRing>
+					</gml:outerBoundaryIs>
+				</gml:Polygon>
+			</Footprint>
+			<Edge Material="Siding" Color="ffffff">
+				<EdgeElement Type="Wall"/>
+				<EdgeElement Type="Window" Begin="0.300" End="0.800"/>
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Siding" Color="ffffff">
+				<EdgeElement Type="Wall"/>
+				<EdgeElement Type="Window" Begin="0.300" End="0.800"/>
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Siding" Color="ffffff">
+				<EdgeElement Type="Wall"/>
+				<EdgeElement Type="Window" Begin="0.300" End="0.800"/>
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Siding" Color="ffffff">
+				<EdgeElement Type="Wall"/>
+				<EdgeElement Type="Window" Begin="0.300" End="0.800"/>
+				<EdgeElement Type="Wall"/>
+			</Edge>
+		</Level>
+		<Level FloorHeight="0.000000" StoryCount="1">
+			<Footprint>
+				<gml:Polygon>
+					<gml:outerBoundaryIs>
+						<gml:LinearRing>
+							<gml:coordinates>565475.191,4753719.63 565458.091,4753718.83 565459.191,4753704.43 565475.991,4753705.13</gml:coordinates>
+						</gml:LinearRing>
+					</gml:outerBoundaryIs>
+				</gml:Polygon>
+			</Footprint>
+			<Edge Material="Plain" Color="8080a0" Slope="0">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Plain" Color="8080a0" Slope="0">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Plain" Color="8080a0" Slope="0">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Plain" Color="8080a0" Slope="0">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+		</Level>
+	</Building>
+	<Building>
+		<Level FloorHeight="3.500000" StoryCount="1">
+			<Footprint>
+				<gml:Polygon>
+					<gml:outerBoundaryIs>
+						<gml:LinearRing>
+							<gml:coordinates>565393.491,4753722.01 565390.548,4753714.08 565402.32,4753709.76 565400.315,4753704.36 565404.988,4753702.66 565409.936,4753715.96</gml:coordinates>
+						</gml:LinearRing>
+					</gml:outerBoundaryIs>
+				</gml:Polygon>
+			</Footprint>
+			<Edge Material="Siding" Color="ffffff">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Siding" Color="ffffff">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Siding" Color="ffffff">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Siding" Color="ffffff">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Siding" Color="ffffff">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Siding" Color="ffffff">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+		</Level>
+		<Level FloorHeight="0.695088" StoryCount="1">
+			<Footprint>
+				<gml:Polygon>
+					<gml:outerBoundaryIs>
+						<gml:LinearRing>
+							<gml:coordinates>565393.491,4753722.01 565390.548,4753714.08 565402.32,4753709.76 565400.315,4753704.36 565404.988,4753702.66 565409.936,4753715.96</gml:coordinates>
+						</gml:LinearRing>
+					</gml:outerBoundaryIs>
+				</gml:Polygon>
+			</Footprint>
+			<Edge Material="Plain" Color="da8457" Slope="15">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Plain" Color="da8457" Slope="15">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Plain" Color="da8457" Slope="15">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Plain" Color="da8457" Slope="15">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Plain" Color="da8457" Slope="15">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Plain" Color="da8457" Slope="15">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+		</Level>
+	</Building>
+	<Building>
+		<Level FloorHeight="3.500000" StoryCount="1">
+			<Footprint>
+				<gml:Polygon>
+					<gml:outerBoundaryIs>
+						<gml:LinearRing>
+							<gml:coordinates>565443.394,4753719.32 565426.294,4753718.52 565427.394,4753704.12 565444.194,4753704.82</gml:coordinates>
+						</gml:LinearRing>
+					</gml:outerBoundaryIs>
+				</gml:Polygon>
+			</Footprint>
+			<Edge Material="Siding" Color="ffffff">
+				<EdgeElement Type="Wall"/>
+				<EdgeElement Type="Window" Begin="0.300" End="0.800"/>
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Siding" Color="ffffff">
+				<EdgeElement Type="Wall"/>
+				<EdgeElement Type="Window" Begin="0.300" End="0.800"/>
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Siding" Color="ffffff">
+				<EdgeElement Type="Wall"/>
+				<EdgeElement Type="Window" Begin="0.300" End="0.800"/>
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Siding" Color="ffffff">
+				<EdgeElement Type="Wall"/>
+				<EdgeElement Type="Window" Begin="0.300" End="0.800"/>
+				<EdgeElement Type="Wall"/>
+			</Edge>
+		</Level>
+		<Level FloorHeight="1.938808" StoryCount="1">
+			<Footprint>
+				<gml:Polygon>
+					<gml:outerBoundaryIs>
+						<gml:LinearRing>
+							<gml:coordinates>565443.394,4753719.32 565426.294,4753718.52 565427.394,4753704.12 565444.194,4753704.82</gml:coordinates>
+						</gml:LinearRing>
+					</gml:outerBoundaryIs>
+				</gml:Polygon>
+			</Footprint>
+			<Edge Material="Plain" Color="da8457" Slope="15">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Plain" Color="da8457" Slope="15">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Plain" Color="da8457" Slope="15">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+			<Edge Material="Plain" Color="da8457" Slope="15">
+				<EdgeElement Type="Wall"/>
+			</Edge>
+		</Level>
+	</Building>
+</StructureCollection>

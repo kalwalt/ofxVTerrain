@@ -1,0 +1,6 @@
+colormap1
+blend: 1
+relative: 0
+size 2
+	elev -8000.000000 color 221 221 221
+	elev 8000.000000 color 221 221 221

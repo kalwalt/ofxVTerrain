@@ -1,0 +1,11 @@
+colormap1
+relative: 1
+size 8
+	elev 0.000000 color 0 80 0
+	elev 0.000000 color 32 176 32
+	elev 0.000000 color 64 224 64
+	elev 0.000000 color 224 192 160
+	elev 0.000000 color 224 128 16
+	elev 0.000000 color 160 120 80
+	elev 0.000000 color 160 160 160
+	elev 0.000000 color 255 255 255

@@ -1,0 +1,18 @@
+colormap1
+relative: 1
+size 14
+	elev 0.000000 color 202 239 196
+	elev 0.000000 color 220 221 188
+	elev 0.000000 color 137 194 118
+	elev 0.000000 color 120 184 155
+	elev 0.000000 color 239 218 123
+	elev 0.000000 color 224 195 119
+	elev 0.000000 color 187 136 101
+	elev 0.000000 color 164 107 99
+	elev 0.000000 color 152 123 109
+	elev 0.000000 color 168 152 142
+	elev 0.000000 color 211 191 178
+	elev 0.000000 color 201 201 201
+	elev 0.000000 color 225 225 225
+	elev 0.000000 color 255 255 255
+

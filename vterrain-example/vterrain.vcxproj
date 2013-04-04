@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7FD42DF7-442E-479A-BA76-D0022F99702A}</ProjectGuid>
+    <RootNamespace>vterrain</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\libs\openFrameworksCompiled\project\vs2010\openFrameworksRelease.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\libs\openFrameworksCompiled\project\vs2010\openFrameworksDebug.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">obj\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">obj\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_debug</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;src\xmlhelper;src\xmlhelper\include;..\..\..\addons\ofxVTerrain\libs;..\..\..\addons\ofxVTerrain\src;..\..\..\addons\ofxVTerrain\libs\lib;..\..\..\addons\ofxVTerrain\libs\src;..\..\..\addons\ofxVTerrain\libs\src\minidata;..\..\..\addons\ofxVTerrain\libs\src\unzip;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn\prop-base;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn\props;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn\text-base;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn\tmp;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn\tmp\prop-base;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn\tmp\props;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn\tmp\text-base;..\..\..\addons\ofxVTerrain\libs\src\vtdata;..\..\..\addons\ofxVTerrain\libs\src\vtdata\shapelib;..\..\..\addons\ofxVTerrain\libs\src\vtdata\triangle;..\..\..\addons\ofxVTerrain\libs\src\vtlib;..\..\..\addons\ofxVTerrain\libs\src\vtlib\core;..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtopensg;..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg;..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtplib;..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtpsm;..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtsgl</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName)_debugInfo.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>-DVTWIN=1;NOUNCRYPT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat />
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;src\xmlhelper;src\xmlhelper\include;..\..\..\addons\ofxVTerrain\libs;..\..\..\addons\ofxVTerrain\src;..\..\..\addons\ofxVTerrain\libs\lib;..\..\..\addons\ofxVTerrain\libs\src;..\..\..\addons\ofxVTerrain\libs\src\minidata;..\..\..\addons\ofxVTerrain\libs\src\unzip;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn\prop-base;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn\props;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn\text-base;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn\tmp;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn\tmp\prop-base;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn\tmp\props;..\..\..\addons\ofxVTerrain\libs\src\unzip\.svn\tmp\text-base;..\..\..\addons\ofxVTerrain\libs\src\vtdata;..\..\..\addons\ofxVTerrain\libs\src\vtdata\shapelib;..\..\..\addons\ofxVTerrain\libs\src\vtdata\triangle;..\..\..\addons\ofxVTerrain\libs\src\vtlib;..\..\..\addons\ofxVTerrain\libs\src\vtlib\core;..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtopensg;..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg;..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtplib;..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtpsm;..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtsgl;%(OSG_DIR);C:\OSGeo4W\include;C:\mini\libMini-WIN32\zlib;C:\mini\libMini-WIN32\libpng;C:\OpenSceneGraph-3.0.1-VS10.0-x86\include;C:\</AdditionalIncludeDirectories>
+      <UseUnicodeForAssemblerListing>true</UseUnicodeForAssemblerListing>
+    </ClCompile>
+    <Link>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <AdditionalDependencies>C:\OSGeo4W\lib\gdal_i.lib;C:\OpenSceneGraph-3.0.1-VS10.0-x86\lib\osg.lib;C:\OpenSceneGraph-3.0.1-VS10.0-x86\lib\osgGA.lib;C:\OpenSceneGraph-3.0.1-VS10.0-x86\lib\osgUtil.lib;C:\OpenSceneGraph-3.0.1-VS10.0-x86\lib\osgDB.lib;C:\OpenSceneGraph-3.0.1-VS10.0-x86\lib\osgText.lib;C:\OpenSceneGraph-3.0.1-VS10.0-x86\lib\osgWidget.lib;C:\OpenSceneGraph-3.0.1-VS10.0-x86\lib\osgTerrain.lib;C:\OpenSceneGraph-3.0.1-VS10.0-x86\lib\osgSim.lib;C:\OpenSceneGraph-3.0.1-VS10.0-x86\lib\osgFX.lib;C:\OpenSceneGraph-3.0.1-VS10.0-x86\lib\osgViewer.lib;C:\OpenSceneGraph-3.0.1-VS10.0-x86\lib\osgVolume.lib;C:\OpenSceneGraph-3.0.1-VS10.0-x86\lib\osgShadow.lib;C:\OpenSceneGraph-3.0.1-VS10.0-x86\lib\osgParticle.lib;C:\OpenSceneGraph-3.0.1-VS10.0-x86\lib\OpenThreads.lib;C:\mini\libMini-WIN32\zlib\zlib.lib;C:\mini\libMini-WIN32\libjpeg\libjpeg.lib;C:\mini\libMini-WIN32\libpng\libpng.lib;C:\mini\build\Release\libMini.lib;C:\mini\libMini-WIN32\libcurl\curllib_static.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OSG_LIB);C:\OpenSceneGraph-3.0.1-VS10.0-x86\lib;C:\openFrameworks\addons\ofxVTerrain\libs\lib\VS2010;C:\OSGeo4W\lib;C:\mini\build\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\src\ofxAppVTerrainWindow.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\src\ofxOsgApp.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\src\ofxVTerrain.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\testApp.cpp" />
+    <ClCompile Include="src\xmlhelper\easyxml.cpp" />
+    <ClCompile Include="src\xmlhelper\exception.cpp" />
+    <ClCompile Include="src\xmlhelper\hashtable.c" />
+    <ClCompile Include="src\xmlhelper\widestring.cpp" />
+    <ClCompile Include="src\xmlhelper\xmlparse.c" />
+    <ClCompile Include="src\xmlhelper\xmlrole.c" />
+    <ClCompile Include="src\xmlhelper\xmltok.c" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\minidata\jpegbase.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\minidata\LocalDatabuf.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\minidata\minidata.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\minidata\MiniDatabuf.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\minidata\pngbase.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\minidata\zlibbase.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\unzip\ioapi.c" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\unzip\iowin32.c" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\unzip\unzip.c" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Building.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\ByteOrder.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\ChunkLOD.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\ChunkUtil.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Content.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\CubicSpline.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\DataPath.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\DLG.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\DxfParser.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\ElevationGrid.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\ElevationGridBT.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\ElevationGridDEM.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\ElevationGridIO.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\FeatureGeom.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Features.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Fence.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\FilePath.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Geodesic.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\GEOnet.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\HeightField.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Icosa.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\LevellerTag.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\LocalConversion.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\LULC.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\MathTypes.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Matrix.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Plants.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\PolyChecker.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Projections.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\QuikGrid.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\RoadMap.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\SPA.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\StructArray.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\StructImport.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Structure.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\triangle\triangle.c" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Triangulate.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\TripDub.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Unarchive.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\UtilityMap.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Vocab.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\vtDIB.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\vtLog.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\vtString.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\vtTime.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\vtTin.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\vtUnzip.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\WFSClient.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\AbstractLayer.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\AnimPath.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\AttribMap.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\BruteTerrain.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Building3d.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\CarEngine.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Content3d.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Contours.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\DynTerrain.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Elastic.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Engine.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\FelkelComponents.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\FelkelIntersection.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\FelkelStraightSkeleton.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Fence3d.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\FrameTimer.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\GeomUtil.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Globe.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\ImageSprite.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\IntersectionEngine.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Location.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\LodGrid.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\MapOverviewEngine.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\NavEngines.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\PagedLodGrid.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\PickEngines.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Plants3d.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Roads.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Route.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\SkyDome.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\SMTerrain.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\SRTerrain.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Structure3d.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TemporaryGraphicsContext.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Terrain.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TerrainLayers.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TerrainScene.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TextureUnitManager.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TiledGeom.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TimeEngines.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TParams.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TVTerrain.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Vehicles.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\vtSOG.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\vtTin3d.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\pre.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\ExternalHeightField3d.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\GeometryUtils.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\GroupLOD.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\ImageOSG.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\LightSpacePerspectiveShadowTechnique.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\Material.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\Mesh.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\NodeLog.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\NodeOSG.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\OSGEventHandler.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\SaveImageOSG.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\SceneOSG.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\ScreenCaptureHandler.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\SimpleInterimShadowTechnique.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\StructureShadowsOSG.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\VisualImpactCalculatorOSG.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\src\ofxAppVTerrainWindow.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\src\ofxOsgApp.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\src\ofxVTerrain.h" />
+    <ClInclude Include="src\testApp.h" />
+    <ClInclude Include="src\xmlhelper\easyxml.hpp" />
+    <ClInclude Include="src\xmlhelper\exception.hpp" />
+    <ClInclude Include="src\xmlhelper\widestring.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\minidata\jpegbase.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\minidata\LocalDatabuf.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\minidata\MiniDatabuf.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\minidata\pngbase.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\minidata\zlibbase.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\unzip\ioapi.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\unzip\iowin32.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\unzip\unzip.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Array.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Building.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\ByteOrder.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\ChunkLOD.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\ChunkUtil.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\config_vtdata.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Content.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\CubicSpline.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\DataPath.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\DLG.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\DxfParser.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\ElevationGrid.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\EPSG_Datums.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Features.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Fence.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\FilePath.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\GEOnet.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\GnsCodes.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\HeightField.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Icosa.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\LevellerTag.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\LocalConversion.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\LULC.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Mainpage.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\MathTypes.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Plants.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\PolyChecker.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Projections.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\QuikGrid.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\RoadMap.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Selectable.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\shapelib\shapefil.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\SOG.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\SPA.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\StatePlane.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\StructArray.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Structure.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\triangle\triangle.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Triangulate.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\TripDub.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Unarchive.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\UtilityMap.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Version.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\Vocab.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\vtDIB.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\vtLog.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\vtString.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\vtTime.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\vtTin.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\vtUnzip.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtdata\WFSClient.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\AbstractLayer.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\AnimPath.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\AttribMap.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\BruteTerrain.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Building3d.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\CarEngine.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Content3d.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Contours.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\DynTerrain.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Elastic.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Engine.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Event.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\FelkelComponents.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\FelkelIntersection.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\FelkelStraightSkeleton.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Fence3d.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\FP8.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\FrameTimer.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\GeomUtil.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Globe.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\ImageSprite.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\IntersectionEngine.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Light.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Location.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\LodGrid.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\MapOverviewEngine.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\NavEngines.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\PagedLodGrid.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\PickEngines.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Plants3d.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Roads.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Route.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\SkyDome.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\SMTerrain.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\SRTerrain.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Structure3d.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TemporaryGraphicsContext.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Terrain.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TerrainLayers.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TerrainScene.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TextureUnitManager.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TiledGeom.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TimeEngines.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TParams.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\TVTerrain.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\Vehicles.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\vtSOG.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\vtTin3d.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\core\winglue.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\Mainpage.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtlib.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\ExternalHeightField3d.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\GeometryUtils.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\GroupLOD.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\ImageOSG.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\LightSpacePerspectiveShadowTechnique.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\Material.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\MathOSG.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\Mesh.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\NodeOSG.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\OSGEventHandler.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\SaveImageOSG.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\SceneOSG.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\ScreenCaptureHandler.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\SimpleInterimShadowTechnique.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\StructureShadowsOSG.h" />
+    <ClInclude Include="..\..\..\addons\ofxVTerrain\libs\src\vtlib\vtosg\VisualImpactCalculatorOSG.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\libs\openFrameworksCompiled\project\vs2010\openframeworksLib.vcxproj">
+      <Project>{5837595d-aca9-485c-8e76-729040ce4b0b}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MaterialDescriptorArray>
+	<!-- These materials are primarily for building walls and roofs -->
+	<MaterialDescriptor Name="Siding"  Colorable="true"  Source="BuildingModels/siding64.jpg" Scale="1, 1"/>
+	<MaterialDescriptor Name="Wood"    Colorable="false" Source="BuildingModels/wood1_256.jpg" Scale="1.6, 1.6"/>
+	<MaterialDescriptor Name="Cement"  Colorable="false" Source="BuildingModels/cement_block1_256.jpg" Scale="1, 1" TwoSided="true"/>
+	<MaterialDescriptor Name="Brick"   Colorable="false" Source="BuildingModels/brick1_256.jpg" Scale="1.2, 1.2" RGB="9F 64 53"/>
+	<MaterialDescriptor Name="Brick"   Colorable="false" Source="BuildingModels/brick2_256.jpg" Scale="1.2, 1.2" RGB="B7 B2 AB"/>
+	<MaterialDescriptor Name="Painted-Brick"  Colorable="true" Source="BuildingModels/brick_mono_256.jpg" Scale="1.2, 1.2"/>
+	<MaterialDescriptor Name="Rolled-Roofing" Colorable="true" Source="BuildingModels/roofing1_256.jpg" Scale="4, 4"/>
+	<MaterialDescriptor Name="Curved Roof Tiles" Colorable="true" Source="BuildingModels/tiles1_v2.jpg" Scale="2.5, 1"/>
+	<MaterialDescriptor Name="Spanish Tile"   Colorable="false" Source="BuildingModels/tiles2_roy.jpg" Scale="1.8, 1.8" RGB="EA 9B 62"/>
+	<MaterialDescriptor Name="Spanish Tile"   Colorable="false" Source="BuildingModels/tiles2_peach.jpg" Scale="1.8, 1.8" RGB="F6 DC BE"/>
+	<MaterialDescriptor Name="Corrugated Metal"   Colorable="true" Source="BuildingModels/corrugated1.jpg" Scale="0.5, 0.5" TwoSided="true"/>
+	<MaterialDescriptor Name="Corrugated Fiberglass"   Colorable="true" Source="BuildingModels/corrugated2.png" Scale="0.35, 0.35" TwoSided="true" Blending="true"/>
+
+	<!-- Materials for elements within a Building Edge -->
+	<MaterialDescriptor Name="Window" Type="1" Colorable="false" Source="BuildingModels/window.jpg" Scale="-1, -1"/>
+	<MaterialDescriptor Name="Door"   Type="1" Colorable="false" Source="BuildingModels/door.jpg" Scale="-1, -1"/>
+	<MaterialDescriptor Name="WindowWall" Type="2" Colorable="true" Source="BuildingModels/window_wall128.jpg" Scale="-1, -1"/>
+
+	<!-- Linear Structure Posts -->
+	<MaterialDescriptor Name="Wood" Type="3" Colorable="false" Source="Culture/fencepost_64.jpg" Scale="-1.000000, -1.000000"/>
+	<MaterialDescriptor Name="Steel" Type="3" Colorable="false" Source="Culture/chainpost32.jpg" Scale="-1.000000, -1.000000"/>
+
+	<!-- These materials are meant for Linear Structure Connections -->
+	<MaterialDescriptor Name="Chain-link" Colorable="false" Source="Culture/chain128-4.png" Scale="0.500000, 0.500000" TwoSided="true" Blending="true"/>
+	<MaterialDescriptor Name="Chicken wire" Colorable="false" Source="Culture/chickenwire256.png" Scale="0.150000, 0.150000" TwoSided="true" Blending="true"/>
+	<MaterialDescriptor Name="Woven wire" Colorable="false" Source="Culture/woven_wire.png" Scale="0.2, 1.2" TwoSided="true" Blending="true"/>
+	<MaterialDescriptor Name="Drystone" Colorable="false" Source="Culture/drystone_wall_512.jpg" Scale="2.400000, 1.200000"/>
+	<MaterialDescriptor Name="Stone" Colorable="false" Source="Culture/stone256.jpg" Scale="2.500000, -1.000000"/>
+	<MaterialDescriptor Name="Privet" Colorable="false" Source="Culture/privet_256.jpg" Scale="1.200000, 1.200000" TwoSided="true"/>
+	<MaterialDescriptor Name="Grass" Colorable="false" Source="GeoTypical/grass_repeat3_512.jpg" Scale="1.500000, 1.500000"/>
+	<MaterialDescriptor Name="Railing_pipe" Colorable="false" Source="Culture/railing_pipe.png" Scale="1.000000, -1.000000" TwoSided="true" Blending="true"/>
+	<MaterialDescriptor Name="Railing_wire" Colorable="false" Source="Culture/railing_wire.png" Scale="1.000000, -1.000000" TwoSided="true" Blending="true"/>
+	<MaterialDescriptor Name="Railing_eu" Colorable="false" Source="Culture/railing_eu.png" Scale="1.000000, -1.000000" TwoSided="true" Blending="true"/>
+</MaterialDescriptorArray>

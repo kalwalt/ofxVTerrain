@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<species-file file-format-version="1.1">
+	<species name="Abies amabilis" max_height="60">
+		<common name="Pacific Silver Fir" />
+		<common name="Silver Fir" />
+		<common name="Purpur-Tanne" lang="de" />
+		<common name="Sapin gracieux" lang="fr" />
+		<common name="Sapin argenté" lang="fr" />
+		<appearance type="1" filename="Abies_amabilis__silver_fir03_256.png" height="9" width="2.44" />
+		<appearance type="1" filename="Abies_amabilis__silver_fir01_256.png" height="10" width="2.79" />
+		<appearance type="1" filename="Abies_amabilis__silver_fir02_256.png" height="12" width="3.12" />
+		<appearance type="1" filename="Abies_amabilis__pacific_silver_fir04_256.png" height="15" width="6.38" />
+		<appearance type="1" filename="Abies_amabilis__pacific_silver_fir02_256.png" height="15" width="4.68" />
+		<appearance type="1" filename="Abies_amabilis__pacific_silver_fir03_256.png" height="18" width="5.88" />
+		<appearance type="1" filename="Abies_amabilis__pacific_silver_fir01_256.png" height="25" width="12.25" />
+		<appearance type="1" filename="Abies_amabilis__pacific_silver_fir05_256.png" height="30" width="9.73" />
+		<appearance type="1" filename="Abies_amabilis__silver_fir05_256.png" height="40" width="19.97" />
+		<appearance type="1" filename="Abies_amabilis__silver_fir04_256.png" height="50" width="12.29" />
+	</species>
+	<species name="Abies grandis" max_height="70">
+		<common name="Grand Fir" />
+		<common name="Küsten-Tanne" lang="de" />
+		<common name="Abeto gigante" lang="es" />
+		<common name="Jättipihta" lang="fi" />
+		<common name="Sapin de Vancouver" lang="fr" />
+		<common name="Reuzenzilverspar" lang="nl" />
+		<appearance type="1" filename="Abies_grandis__grand_fir03_256.png" height="5" width="3.58" />
+		<appearance type="1" filename="Abies_grandis__grand_fir02_256.png" height="20" width="10.48" />
+		<appearance type="1" filename="Abies_grandis__grand_fir01_256.png" height="60" width="33.1" />
+	</species>
+	<species name="Abies lasiocarpa" max_height="40">
+		<common name="Subalpine Fir" />
+		<common name="Felsen-Tanne" lang="de" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir10_256.png" height="3" width="1.66" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir16_256.png" height="8" width="2.41" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir05_256.png" height="10" width="5.93" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir11_256.png" height="12" width="4.75" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir07_256.png" height="15" width="5.77" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir02_256.png" height="18" width="8.87" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir17_256.png" height="20" width="5.15" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir04_256.png" height="20" width="12.99" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir12_256.png" height="20" width="8.42" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir13_256.png" height="20" width="7.03" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir06_256.png" height="25" width="7.75" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir08_256.png" height="25" width="11.48" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir14_256.png" height="30" width="7.48" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir15_256.png" height="30" width="7.43" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir03_256.png" height="35" width="11.12" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir09_256.png" height="35" width="8.15" />
+		<appearance type="1" filename="Abies_lasiocarpa__subalpine_fir01_256.png" height="40" width="10.71" />
+	</species>
+	<species name="Acacia dealbata" max_height="20.00">
+		<common name="Silver Wattle" />
+		<common name="Silber-Akazie" lang="de" />
+		<appearance type="1" filename="silver_wattle1.png" width="4.3" height="2.2" shadow_radius="0.4" shadow_darkness="0.2" />
+	</species>
+	<species name="Acacia koa" max_height="15.00">
+		<common name="Koa" />
+		<common name="Koa-Baum" lang="de" />
+		<appearance type="1" filename="koa2_256.png" height="1.00" width="0.56" />
+		<appearance type="1" filename="koa1_v2_256.png" width="4.00" height="5.00" />
+		<appearance type="1" filename="koa_7m_1024.png" width="8.87" height="7.00" />
+	</species>
+	<species name="Acer circinatum" max_height="8">
+		<common name="Vine Maple" />
+		<common name="Weinblatt-Ahorn" lang="de" />
+		<common name="Érable circiné" lang="fr" />
+		<appearance type="1" filename="Acer_circinatum__vine_maple02_256.png" height="1.5" width="1.71" />
+		<appearance type="1" filename="Acer_circinatum__vine_maple04_256.png" height="1.5" width="0.92" />
+		<appearance type="1" filename="Acer_circinatum__vine_maple01_256.png" height="2" width="2.08" />
+		<appearance type="1" filename="Acer_circinatum__vine_maple05_256.png" height="5" width="5.26" />
+		<appearance type="1" filename="Acer_circinatum__vine_maple06_256.png" height="6" width="4.12" />
+		<appearance type="1" filename="Acer_circinatum__vine_maple03_256.png" height="8" width="11.68" />
+	</species>
+	<species name="Acer macrophyllum" max_height="20">
+		<common name="Bigleaf Maple" />
+		<common name="Oregon-Ahorn" lang="de" />
+		<common name="Grossblättriger Ahorn" lang="de" />
+		<common name="Oregon Maple" />
+		<common name="Érable à grandes feuilles" lang="fr" />
+		<common name="Érable de l'Orégon" lang="fr" />
+		<common name="Klon wielkolistny" lang="pl" />
+		<appearance type="1" filename="Acer_macrophyllum__bigleaf_maple01_256.png" height="12" width="10.04" />
+		<appearance type="1" filename="Acer_macrophyllum__bigleaf_maple02_256.png" height="16" width="21.46" />
+		<appearance type="1" filename="Acer_macrophyllum__bigleaf_maple03_512.png" height="18" width="27.54" />
+		<appearance type="1" filename="Acer_macrophyllum__bigleaf_maple04_256.png" height="20" width="16.02" />
+	</species>
+	<species name="Acer palmatum" max_height="6">
+		<common name="Japanese Maple" />
+		<common name="Japansk Løn" lang="da" />
+		<common name="Fächer-Ahorn" lang="de" />
+		<common name="Érable palmé" lang="fr" />
+		<common name="단풍나무" lang="ko" />
+		<common name="Japanse esdoorn" lang="nl" />
+		<common name="Klon palmowy" lang="pl" />
+		<common name="Japon akçaağacı" lang="tr" />
+		<appearance type="1" filename="Acer_palmatum__japanese_maple01_256.png" height="3" width="2.73" />
+		<appearance type="1" filename="Acer_palmatum__japanese_maple02_256.png" height="6" width="4.83" />
+	</species>
+	<species name="Alnus rubra" max_height="20">
+		<common name="Red Alder" />
+		<common name="Oregon Alder" />
+		<common name="Rot-Erle" lang="de" />
+		<appearance type="1" filename="Alnus_rubra__red_alder04_256.png" height="1" width="0.86" />
+		<appearance type="1" filename="Alnus_rubra__red_alder06_256.png" height="1" width="1.01" />
+		<appearance type="1" filename="Alnus_rubra__red_alder02_256.png" height="3" width="2.08" />
+		<appearance type="1" filename="Alnus_rubra__red_alder01_256.png" height="5" width="2.94" />
+		<appearance type="1" filename="Alnus_rubra__red_alder05_256.png" height="17" width="8.17" />
+		<appearance type="1" filename="Alnus_rubra__red_alder03_256.png" height="20" width="26.71" />
+	</species>
+	<species name="Alnus viridis" max_height="4">
+		<common name="Mountain Alder" />
+		<common name="Grøn-El" lang="da" />
+		<common name="Grün-Erle" lang="de" />
+		<common name="Olsza zielona" lang="pl" />
+		<appearance type="1" filename="Alnus_viridis__mountain_alder01_256.png" height="3" width="3.8" />
+	</species>
+	<species name="Alnus viridis ssp sinuata" max_height="4">
+		<common name="Sitka Alder" />
+		<common name="Sitka-Erle" lang="de" />
+		<appearance type="1" filename="Alnus_viridis_ssp_sinuata__sitka_alder01_512.png" height="1" width="1.66" />
+		<appearance type="1" filename="Alnus_viridis_ssp_sinuata__sitka_alder02_256.png" height="1.5" width="1.6" />
+	</species>
+	<species name="Amerosedum lanceolatum" max_height=".25">
+		<common name="Yellow Stonecrop" />
+		<common name="Lanzettblättrige Fetthenne" lang="de" />
+		<appearance type="1" filename="Amerosedum_lanceolatum__yellow_stonecrop01_256.png" height=".17" width="0.21" />
+		<appearance type="1" filename="Amerosedum_lanceolatum__yellow_stonecrop02_256.png" height=".17" width="0.24" />
+	</species>
+	<species name="Araucaria heterophylla" max_height="60">
+		<common name="Norfolk Island Pine" />
+		<common name="Norfolk Pine" />
+		<common name="کاج مطبق" lang="fa"/>
+		<common name="Zimmer-Tanne" lang="de"/>
+		<common name="Norfolk-Tanne" lang="de"/>
+		<common name="Pin de Norfolk" lang="fr"/>
+		<appearance type="1" filename="arauc_norfolk_34m_256.png" height="34" width="22.6" />
+	</species>
+	<species name="Arbutus menziesii" max_height="25">
+		<common name="Pacific Madrone" />
+		<common name="Pazifischer Erdbeerbaum" lang="de" />
+		<appearance type="1" filename="Arbutus_menziesii__pacific_madrone03_256.png" height="10" width="7.25" />
+		<appearance type="1" filename="Arbutus_menziesii__pacific_madrone04_256.png" height="12" width="8.96" />
+		<appearance type="1" filename="Arbutus_menziesii__pacific_madrone05_256.png" height="13" width="16.13" />
+		<appearance type="1" filename="Arbutus_menziesii__pacific_madrone02_256.png" height="15" width="9.39" />
+		<appearance type="1" filename="Arbutus_menziesii__pacific_madrone01_256.png" height="20" width="10.14" />
+		<appearance type="1" filename="Arbutus_menziesii__pacific_madrone06_256.png" height="20" width="20.78" />
+	</species>
+	<species name="Artemisia dracunculus" max_height="1.5">
+		<common name="Tarragon" />
+		<common name="French Tarragon" />
+		<common name="Green Sagewort " />
+		<common name="Esdragon" lang="da" />
+		<common name="Deutscher Estragon" lang="de" />
+		<common name="ترخون" lang="fa" />
+		<common name="Tarkhun" lang="fa" />
+		<common name="Rakuuna" lang="fi" />
+		<common name="Estragon" lang="fr" />
+		<common name="Εστραγκόν" lang="el" />
+		<common name="Tárkony" lang="hu" />
+		<common name="טרגון" lang="iw" />
+		<common name="Estragon" lang="it" />
+		<common name="タラゴン" lang="jp" />
+		<common name="타라곤" lang="ko" />
+		<common name="Dragon" lang="nl" />
+		<common name="Estragon" lang="no" />
+		<common name="Estragão" lang="pt" />
+		<common name="Estragon" lang="ro" />
+		<common name="Эстрагон" lang="ru" />
+		<common name="Estragon" lang="es" />
+		<common name="Dragon " lang="sv" />
+		<common name="แทรากอน" lang="th" />
+		<common name="Tarhun" lang="tr" />
+		<appearance type="1" filename="Artemisia_dracunculus__tarragon01_256.png" height=".5" width="0.52" />
+		<appearance type="1" filename="Artemisia_dracunculus__tarragon02_256.png" height=".75" width="0.74" />
+		<appearance type="1" filename="Artemisia_dracunculus__tarragon03_512.png" height="1.5" width="2.26" />
+	</species>
+	<species name="Artemisia frigida" max_height=".5">
+		<common name="Fringed Sage" />
+		<common name="Alaska-Wermut" lang="de" />
+		<appearance type="1" filename="Artemisia_frigida__fringed_sage01_256.png" height=".5" width="0.52" />
+		<appearance type="1" filename="Artemisia_frigida__fringed_sage02_512.png" height=".5" width="0.76" />
+		<appearance type="1" filename="Artemisia_frigida__fringed_sage03_256.png" height=".5" width="0.73" />
+		<appearance type="1" filename="Artemisia_frigida__fringed_sage04_256.png" height=".5" width="0.59" />
+	</species>
+	<species name="Artemisia tridentata" max_height="2">
+		<common name="Big Sagebrush" />
+		<common name="Wüsten-Beifuss" lang="de" />
+		<appearance type="1" filename="Artemisia_tridentata__big_sagebrush08_256.png" height=".75" width="0.76" />
+		<appearance type="1" filename="Artemisia_tridentata__big_sagebrush01_256.png" height="1" width="1.43" />
+		<appearance type="1" filename="Artemisia_tridentata__big_sagebrush03_512.png" height="1" width="1.59" />
+		<appearance type="1" filename="Artemisia_tridentata__big_sagebrush04_256.png" height="1" width="1.23" />
+		<appearance type="1" filename="Artemisia_tridentata__big_sagebrush02_256.png" height="1.5" width="0.93" />
+		<appearance type="1" filename="Artemisia_tridentata__big_sagebrush05_256.png" height="1.5" width="1.26" />
+		<appearance type="1" filename="Artemisia_tridentata__big_sagebrush07_256.png" height="1.7" width="1.43" />
+		<appearance type="1" filename="Artemisia_tridentata__big_sagebrush06_256.png" height="2" width="1.64" />
+	</species>
+	<species name="Atriplex corrugata" max_height=".25">
+		<common name="Mat Saltbush" />
+		<common name="Matte Melde" lang="de" />
+		<appearance type="1" filename="Atriplex_corrugata__mat_saltbush01_256.png" height=".15" width="0.17" />
+		<appearance type="1" filename="Atriplex_corrugata__mat_saltbush02_512.png" height=".15" width="0.3" />
+		<appearance type="1" filename="Atriplex_corrugata__mat_saltbush03_512.png" height=".15" width="0.3" />
+		<appearance type="1" filename="Atriplex_corrugata__mat_saltbush04_512.png" height=".15" width="0.29" />
+		<appearance type="1" filename="Atriplex_corrugata__mat_saltbush05_512.png" height=".15" width="0.28" />
+		<appearance type="1" filename="Atriplex_corrugata__mat_saltbush06_512.png" height=".25" width="0.42" />
+	</species>
+	<species name="Bambusa spp." max_height="30">
+		<common name="Giant Bamboo" />
+		<common name="竹" lang="jp" />
+		<common name="Bambus" lang="de" />
+		<common name="Bambú" lang="es" />
+		<common name="Bambou" lang="fr" />
+		<common name="Bamboe" lang="nl" />
+		<common name="Bambu" lang="pt" />
+		<common name="Bambu" lang="sv" />
+		<common name="竹" lang="zh" />
+		<appearance type="1" filename="zhu_giant_512.png" height="16" width="10" />
+	</species>
+	<species name="Butia yatay" max_height="6">
+		<common name="Yatay Palm" />
+		<common name="Jelly palm" />
+		<common name="Yatay-Palme" lang="de" />
+		<common name="Butiapalme " lang="de"/>
+		<common name="Palma Yatay " lang="es"/>
+		<common name="Butia argentin " lang="fr"/>
+		<appearance type="1" filename="Butia_yatay__yatay_palm12_512.png" height="2.5" width="3.81" />
+		<notes>"Syagrus yatay" appears to be the most common alternate botanical name, along with less common
+		"Calappa yatay", "Cocos yatay", "Butia capitata subsp. yatay".  This species looks just like Butia capitata.</notes>
+	</species>
+	<species name="Camellia japonica" max_height="3.5">
+		<common name="Camellia" />
+		<common name="Kamelie" lang="de" />
+		<common name="Camelia" lang="es" />
+		<common name="ツバキ" lang="jp" />
+		<common name="Kamelia " lang="pl" />
+		<common name="Camélia " lang="pt" />
+		<appearance type="1" filename="camellia1_256.png" height="1.8" width="1.51" />
+	</species>
+	<species name="Carduus nutans" max_height="2">
+		<common name="Musk Thistle" />
+		<common name="Nodding Thistle" />
+		<common name="Nickende Distel" lang="de" />
+		<common name="Chardon penché" lang="fr" />
+		<common name="Cardo rosso" lang="it" />
+		<common name="Knikkende distel" lang="nl" />
+		<common name="Oset zwisły" lang="pl" />
+		<appearance type="1" filename="Carduus_nutans__musk_thistle08_256.png" height=".1" width="0.06" />
+		<appearance type="1" filename="Carduus_nutans__musk_thistle09_256.png" height=".1" width="0.06" />
+		<appearance type="1" filename="Carduus_nutans__musk_thistle10_256.png" height=".1" width="0.08" />
+		<appearance type="1" filename="Carduus_nutans__musk_thistle07_256.png" height=".25" width="0.15" />
+		<appearance type="1" filename="Carduus_nutans__musk_thistle03_256.png" height=".33" width="0.18" />
+		<appearance type="1" filename="Carduus_nutans__musk_thistle06_256.png" height=".33" width="0.24" />
+		<appearance type="1" filename="Carduus_nutans__musk_thistle01_256.png" height="1" width="0.42" />
+		<appearance type="1" filename="Carduus_nutans__musk_thistle04_256.png" height="1" width="0.62" />
+		<appearance type="1" filename="Carduus_nutans__musk_thistle02_256.png" height="1.5" width="0.95" />
+		<appearance type="1" filename="Carduus_nutans__musk_thistle05_256.png" height="1.75" width="0.89" />
+		<appearance type="1" filename="Carduus_nutans__musk_thistle11_256.png" height="2" width="1.07" />
+	</species>
+	<species name="Carica papaya" max_height="4.00">
+		<common name="Papaya" />
+		<common name="باباي" lang="ar" />
+		<common name="Melontræ" lang="da" />
+		<common name="Papayer" lang="fr" />
+		<common name="Melonenbaum" lang="de" />
+		<common name="Papajabaum" lang="de" />
+		<common name="Papaya" lang="es" />
+		<common name="Papayero" lang="es" />
+		<common name="Papaija" lang="fi" />
+		<common name="Papaia " lang="it" />
+		<common name="פפאיה" lang="he" />
+		<common name="パパイヤ" lang="jp" />
+		<common name="Meloenboom" lang="nl" />
+		<common name="Papaja" lang="nl" />
+		<common name="Papaja" lang="pl" />
+		<common name="Mamoeiro" lang="pt" />
+		<common name="Papaeira" lang="pt" />
+		<common name="Папайя" lang="ru" />
+		<common name="பப்பாளி" lang="ta" />
+		<common name="มะละกอ" lang="th" />
+		<common name="番木瓜" lang="zh" />
+		<appearance type="1" filename="papaya1_v2_256.png" width="2.00" height="4.00" shadow_radius="0.6" shadow_darkness="0.2" />
+	</species>
+	<species name="Carnegiea gigantea" max_height="14">
+		<common name="Saguaro Cactus" />
+		<common name="Kæmpekaktus" lang="da" />
+		<common name="Kandelaberkaktus" lang="de" />
+		<common name="Saguaro" lang="de" />
+		<common name="Saguaro" lang="es" />
+		<common name="ساگوارو" lang="fa" />
+		<common name="Saguaro" lang="fr" />
+		<common name="Saguaro" lang="it" />
+		<common name="Cactus a candelabro" lang="it" />
+		<common name="Didžioji karnegija" lang="lt" />
+		<common name="Saguaro" lang="nl" />
+		<common name="Saguaro" lang="pt" />
+		<common name="Сагуаро кактус" lang="sr" />
+		<common name="Карнегия гигантская" lang="ru" />
+		<common name="Saguaro" lang="sv" />
+		<common name="巨人柱" lang="zh" />
+		<appearance type="1" filename="saguaro_8m_256.png" width="4" height="8" />
+	</species>
+	<species name="Casuarina equisetifolia" max_height="14">
+		<common name="Ironwood" />
+		<!-- We don't have any ironwood billboards, but it looks a lot like certain species of pine -->
+		<appearance type="1" filename="pine1_6m_256.png" width="3.5" height="6" />
+		<appearance type="1" filename="pine1_10m_256.png" width="6.5" height="10" />
+	</species>
+	<species name="Chamaecyparis nootkatensis" max_height="28">
+		<common name="Alaska Cedar" />
+		<common name="Nutka-Cypres" lang="da" />
+		<common name="Nutka-Scheinzypresse" lang="de" />
+		<common name="Cyprès de Nootka" lang="fr" />
+		<common name="Bách Nootka" lang="vi" />
+		<appearance type="1" filename="Chamaecyparis_nootkatensis__alaska_cedar04_256.png" height="8" width="4.57" />
+		<appearance type="1" filename="Chamaecyparis_nootkatensis__alaska_cedar03_256.png" height="12" width="5.56" />
+		<appearance type="1" filename="Chamaecyparis_nootkatensis__alaska_cedar02_256.png" height="24" width="12.18" />
+		<appearance type="1" filename="Chamaecyparis_nootkatensis__alaska_cedar01_256.png" height="28" width="14.51" />
+	</species>
+	<species name="Cheirodendron platyphyllum" max_height="2.50">
+		<common name="Olapa" />
+		<appearance type="1" filename="olapa1_v3_256.png" width="1.00" height="2.00" shadow_radius="0.3" shadow_darkness="0.2" />
+	</species>
+	<species name="Chrysothamnus nauseosus" max_height="1">
+		<common name="Gray Rabbitbush" />
+		<common name="Rubber Rabbitbush" />
+		<common name="Hasenpinsel" lang="de" />
+		<appearance type="1" filename="Chrysothamnus_nauseosus__rubber_rabbitbush01_512.png" height=".5" width="0.9" />
+		<appearance type="1" filename="Chrysothamnus_nauseosus__rubber_rabbitbush02_512.png" height="1" width="1.52" />
+	</species>
+	<species name="Cibotium menziesii" max_height="4.00">
+		<common name="Hapu`u" />
+		<common name="Hawaiian Tree Fern " />
+		<common name="Hawaiianischer Baumfarn" lang="de" />
+		<appearance type="1" filename="hapuu1_v3_256.png" width="3.20" height="3.20" shadow_radius="0.4" shadow_darkness="0.2" />
+		<appearance type="1" filename="hapuu2_v3_256.png" width="3.00" height="3.00" shadow_radius="0.4" shadow_darkness="0.2" />
+	</species>
+	<species name="Cinnamomum camphora" max_height="25">
+		<common name="Camphor tree" />
+		<common name="Kampferbaum" lang="de" />
+		<common name="Alcanforero" lang="es" />
+		<common name="Camphrier" lang="fr" />
+		<common name="クスノキ" lang="jp" />
+		<common name="Kamferboom" lang="nl" />
+		<common name="Cânfora" lang="pt" />
+		<common name="Kamferträd" lang="sv" />
+		<common name="樟树" lang="zh" />
+		<appearance type="1" filename="tree_zhangshu_512.png" height="5" width="5" />
+	</species>
+	<species name="Citrus sinensis" max_height="7.00">
+		<common name="Orange" />
+		<common name="Sweet Orange" />
+		<common name="برتقال" lang="ar"/>
+		<common name="Портокал" lang="bg"/>
+		<common name="Πορτοκάλι" lang="bg"/>
+		<common name="Pomeranč " lang="cs"/>
+		<common name="Appelsin " lang="da"/>
+		<common name="Orange" lang="de"/>
+		<common name="Apfelsine" lang="de"/>
+		<common name="پرتقال" lang="fa"/>
+		<common name="Appelsiini" lang="fi"/>
+		<common name="Orange" lang="fr"/>
+		<common name="Χρυσομηλιά" lang="el"/>
+		<common name="Naranja" lang="es"/>
+		<common name="תפוז" lang="he"/>
+		<common name="Tapuz" lang="he"/>
+		<common name="Narangi" lang="hi"/>
+		<common name="Narancs" lang="hu"/>
+		<common name="Նարինջ" lang="hy"/>
+		<common name="Appelsína" lang="is"/>
+		<common name="Glóaldin " lang="is"/>
+		<common name="Arancia " lang="it"/>
+		<common name="オレンジ" lang="jp"/>
+		<common name="Apelsīns" lang="lv"/>
+		<common name="Appelsien" lang="nl"/>
+		<common name="Appelsin" lang="nn"/>
+		<common name="Pomaranćza gorzka" lang="pl"/>
+		<common name="Laranja " lang="pt"/>
+		<common name="Portocală" lang="ro"/>
+		<common name="Апельсин" lang="ru"/>
+		<common name="Наранџа" lang="sr"/>
+		<common name="Apelsin" lang="sv"/>
+		<common name="Portakal" lang="tr"/>
+		<common name="Turunç" lang="tr"/>
+		<common name="柑橘" lang="zh"/>
+		<appearance type="1" filename="orange_tree01.png" width="4" height="4" shadow_radius="0.4" shadow_darkness="0.2" />
+	</species>
+	<species name="Cocos nucifera" max_height="14">
+		<common name="Coconut Palm" />
+		<common name="Кокос" lang="bg"/>
+		<common name="Kokosnød" lang="da"/>
+		<common name="Coco" lang="es"/>
+		<common name="نارگیل" lang="fa"/>
+		<common name="Nargil" lang="fa"/>
+		<common name="Kookospähkinä" lang="fi"/>
+		<common name="Coco" lang="fr"/>
+		<common name="Kokospalme" lang="de"/>
+		<common name="Kokosnußpalme" lang="de"/>
+		<common name="Κοκκοφοίνικα" lang="el"/>
+		<common name="Καρύδα" lang="el"/>
+		<common name="Koko" lang="eu"/>
+		<common name="קוקוס" lang="he"/>
+		<common name="Kokus" lang="he"/>
+		<common name="Kókuszdió " lang="hu"/>
+		<common name="Հընդկական Ընկոյզ" lang="hy"/>
+		<common name="Kókoshneta " lang="is"/>
+		<common name="Cocco" lang="it"/>
+		<common name="食用" lang="jp"/>
+		<common name="ココヤシ" lang="jp"/>
+		<common name="Kokos" lang="nl"/>
+		<common name="Palma kokosowa" lang="pl"/>
+		<common name="Cocotier" lang="ro"/>
+		<common name="Кокос" lang="ru"/>
+		<common name="Kokosový orech" lang="sk"/>
+		<common name="Kokosova palma" lang="sl"/>
+		<common name="Kokos" lang="sv"/>
+		<common name="Kokosnöt" lang="sv"/>
+		<common name="มะพร้าว" lang="th"/>
+		<common name="椰子" lang="zh"/>
+		<appearance type="1" filename="palm1_v4_256.png" width="6.17" height="10" />
+	</species>
+	<species name="Coffea arabica" max_height="2.50">
+		<common name="Coffee" />
+		<common name="Kávovník" lang="cs" />
+		<common name="Kaffe-slægten" lang="da" />
+		<common name="Arabica-Kaffee" lang="de" />
+		<common name="Bergkaffee" lang="de" />
+		<common name="Kaffee" lang="de" />
+		<common name="Cafeto" lang="es" />
+		<common name="Caféier" lang="fr" />
+		<common name="Arabiankahvi" lang="fi" />
+		<common name="קפה (צמח)" lang="he" />
+		<common name="Caffè" lang="it" />
+		<common name="コーヒーノキ" lang="jp" />
+		<common name="Koffieplant" lang="nl" />
+		<common name="Kawowiec" lang="pl" />
+		<common name="Cafeeiro" lang="pt" />
+		<common name="Кофейное дерево" lang="ru" />
+		<common name="Kavovec" lang="sl" />
+		<common name="Kaffesläktet" lang="sv" />
+		<common name="Cây cà phê" lang="vi" />
+		<common name="咖啡" lang="zh" />
+		<appearance type="1" filename="coffee1_v2_256.png" width="1.60" height="1.80" />
+	</species>
+	<species name="Cryptomeria japonica" max_height="25">
+		<common name="Sugi" />
+		<common name="Kryptomerie japonská" lang="cs" />
+		<common name="Sicheltanne" lang="de" />
+		<common name="Criptomeria japonesa" lang="es" />
+		<common name="cryptoméria du Japon" lang="fr" />
+		<common name="杉" lang="jp" />
+		<common name="삼나무" lang="ko" />
+		<common name="კრიპტომერია" lang="ka" />
+		<common name="Криптомери" lang="mrj" />
+		<common name="Japanse ceder" lang="nl" />
+		<common name="Sugislekten" lang="no" />
+		<common name="Kryptomeria" lang="pl" />
+		<common name="Criptoméria" lang="pt" />
+		<common name="Криптомерия" lang="ru" />
+		<common name="Sugi" lang="fi" />
+		<common name="Japaninsetri" lang="fi" />
+		<common name="Kryptomeria" lang="sv" />
+		<common name="Japon çamı" lang="tr" />
+		<common name="Криптомерія японська" lang="uk" />
+		<common name="Liễu sam" lang="vi" />
+		<common name="日本柳杉" lang="zh" />
+		<appearance type="1" filename="sugi13_512.png" width="7" height="12.5" />
+	</species>
+	<species name="Cordyline fruticosa" max_height="5.5">
+		<common name="Ti plant" />
+		<common name="Good Luck plant" />
+		<common name="Keulenlilie" lang="de" />
+		<common name="Épinard hawaïen" lang="fr" />
+		<common name="Hanjuang" lang="id" />
+		<common name="Bloddracena" lang="sv" />
+		<appearance type="1" filename="cordyline_ti1_256.png" width="1.21" height="2" />
+	</species>
+	<species name="Cupressus sempervirens" max_height="30">
+		<common name="Cypress" />
+		<common name="Italian Cypress" />
+		<common name="Mediterranean Cypress" />
+		<common name="Cipresso" lang="it" />
+		<common name="Cipresso Mediterraneo" lang="it" />
+		<common name="Trauerzypresse" lang="de" />
+		<common name="Ciprés Común" lang="es" />
+		<common name="Ciprés del Mediterráneo" lang="es" />
+		<common name="Cyprès Commun" lang="fr" />
+		<common name="Italiaanse Cipres" lang="nl" />
+		<common name="Cipreste-italiano" lang="pt" />
+		<common name="Äkta cypress" lang="se" />
+		<appearance type="1" filename="cypress01b.png" height="3.3" width="0.8" />
+		<appearance type="1" filename="cypress01d.png" height="3.6" width="1.0" />
+		<appearance type="1" filename="cypress01c.png" height="4.4" width="1.1" />
+		<appearance type="1" filename="cypress2027.png" height="4.6" width="1.15" />
+		<appearance type="1" filename="cypress_m231.png" height="5" width="1.3" />
+		<appearance type="1" filename="cypress_m241.png" height="5.2" width="1.5" />
+		<appearance type="1" filename="cypress_m218.png" height="5.4" width="1.5" />
+		<appearance type="1" filename="cypress_m210bis.png" height="5.6" width="2.8" />
+		<appearance type="1" filename="cypress_m243.png" height="5.8" width="1.5" />
+		<appearance type="1" filename="cypress_m235.png" height="6.6" width="1.5" />
+		<appearance type="1" filename="cypress2016.png" height="6.8" width="3.2" />
+		<appearance type="1" filename="cypress_m235bis.png" height="7.2" width="1.8" />
+		<appearance type="1" filename="cypress_m228.png" height="8.0" width="2" />
+		<appearance type="1" filename="cypress2016bis.png" height="9.8" width="2.4" />
+		<appearance type="1" filename="cypress_m245bis.png" height="10" width="2.5" />
+		<appearance type="1" filename="cypress_m212.png" height="11.6" width="2.9" />
+		<appearance type="1" filename="cypress2029.png" height="12.4" width="6.2" />
+  </species>
+	<species name="Ephedra viridis" max_height="0.90">
+		<common name="Mormon Tea" />
+		<common name="Grüner Mormonentee" lang="de" />
+		<appearance type="1" filename="Ephedra_viridis__mormon_tea02_512.png" height=".4" width="0.61" />
+		<appearance type="1" filename="Ephedra_viridis__mormon_tea01_512.png" height=".5" width="0.85" />
+		<appearance type="1" filename="Ephedra_viridis__mormon_tea03_256.png" height=".66" width="0.86" />
+	</species>
+	<species name="Dypsis lutescens" max_height="10">
+		<common name="Areca palm" />
+		<common name="Butterfly palm" />
+		<common name="Cane palm" />
+		<common name="Golden-yellow palm" />
+		<common name="Goldblattpalme" lang="de" />
+		<common name="Goldfruchtpalme" lang="de" />
+		<common name="Palma enana" lang="es" />
+		<common name="Palmier cane d'or" lang="fr" />
+		<common name="アレカヤシ" lang="jp" />
+		<common name="Areca-bambu" lang="pt" />
+		<common name="Palmeira de jardim" lang="pt" />
+		<appearance type="1" filename="areca_palm1_256.png" height="3" width="3" />
+	</species>
+	<species name="Echinocactus grusonii" max_height="1">
+		<common name="Golden Ball Cactus" />
+		<appearance type="1" filename="Echinocactus_grusonii_128.png" height="0.8" width="0.75" />
+	</species>
+	<species name="Eriobotrya japonica" max_height="60">
+		<common name="Loquat" />
+		<common name="Japanische Wollmispel" lang="de" />
+		<common name="Nisperero del Japón " lang="es" />
+		<common name="Néflier du Japon" lang="fr" />
+		<common name="Nespolo del Giappone" lang="it" />
+		<common name="Loquat" lang="nl" />
+		<common name="ビワ" lang="jp" />
+		<common name="Nespereira" lang="pt" />
+		<common name="Loquat" lang="sv" />
+		<common name="枇杷" lang="zh" />
+		<appearance type="1" filename="tree_pipa_256.png" height="4.6" width="3.3" />
+	</species>
+	<species name="Eriogonum ovalifolium" max_height="0.35">
+		<common name="Cushion Buckwheat" />
+		<common name="Knöterichgewächs" lang="de" />
+		<appearance type="1" filename="Eriogonum__buckwheat02_256.png" height=".1" width="0.07" />
+		<appearance type="1" filename="Eriogonum__buckwheat04_256.png" height=".3" width="0.43" />
+		<appearance type="1" filename="Eriogonum__buckwheat01_256.png" height=".33" width="0.43" />
+		<appearance type="1" filename="Eriogonum__buckwheat03_512.png" height=".33" width="0.52" />
+	</species>
+	<species name="Eucalyptus obliqua" max_height="50.00">
+		<common name="Messmate Stringybark" />
+		<common name="Eukalyptus" lang="de" />
+		<appearance type="1" filename="euc_obliqua3a.png" height="4.5" width="2.9" shadow_radius="0.8" shadow_darkness="0.5" />
+		<appearance type="1" filename="euc_obliqua3b.png" height="5" width="2.3" shadow_radius="0.8" shadow_darkness="0.5" />
+		<appearance type="1" filename="euc_obliqua10.png" height="12" width="4.8" shadow_radius="0.8" shadow_darkness="0.5" />
+		<appearance type="1" filename="euc_obliqua25a.png" height="23" width="6.5" shadow_radius="0.8" shadow_darkness="0.5" />
+		<appearance type="1" filename="euc_obliqua25c2.png" height="21" width="8.1" shadow_radius="0.8" shadow_darkness="0.5" />
+		<appearance type="1" filename="euc_obliqua89a.png" height="40" width="18.4" shadow_radius="0.8" shadow_darkness="0.5" />
+		<appearance type="1" filename="euc_obliqua89b.png" height="35" width="19.3" shadow_radius="0.8" shadow_darkness="0.5" />
+	</species>
+	<species name="Festuca brachyphylla" max_height=".5">
+		<common name="Colorado Fescue" />
+		<common name="Schaf-Schwingel" lang="de" />
+		<appearance type="1" filename="Festuca_brachyphylla__colorado_fescue01_256.png" height=".33" width="0.35" />
+		<appearance type="1" filename="Festuca_brachyphylla__colorado_fescue02_256.png" height=".4" width="0.45" />
+		<appearance type="1" filename="Festuca_brachyphylla__colorado_fescue03_256.png" height=".5" width="0.47" />
+	</species>
+	<species name="Festuca scabrella" max_height="0.33">
+		<common name="Rough Fescue" />
+		<common name="Schwingel" lang="de" />
+		<appearance type="1" filename="Festuca_scabrella__rough_fescue03_256.png" height=".1" width="0.1" />
+		<appearance type="1" filename="Festuca_scabrella__rough_fescue04_256.png" height=".1" width="0.1" />
+		<appearance type="1" filename="Festuca_scabrella__rough_fescue01_256.png" height=".2" width="0.21" />
+		<appearance type="1" filename="Festuca_scabrella__rough_fescue05_256.png" height=".2" width="0.22" />
+		<appearance type="1" filename="Festuca_scabrella__rough_fescue06_256.png" height=".25" width="0.25" />
+		<appearance type="1" filename="Festuca_scabrella__rough_fescue02_256.png" height=".3" width="0.28" />
+		<appearance type="1" filename="Festuca_scabrella__rough_fescue07_256.png" height=".33" width="0.25" />
+	</species>
+	<species name="Firmiana simplex" max_height="20">
+		<common name="Chinese parasol tree" />
+		<common name="Parasol Chino" lang="es" />
+		<common name="アオギリ" lang="jp" />
+		<common name="梧桐" lang="zh" />
+		<appearance type="1" filename="tree_wutong_512.png" height="7" width="7" />
+	</species>
+	<species name="Grevillea robusta" max_height="30">
+		<common name="Silk Oak" />
+		<common name="Roble Sedoso" lang="es" />
+		<common name="Australische Zilvereik" lang="nl" />
+		<appearance type="1" filename="silkoak_10m_512x1024.png" height="10" width="5.43" />
+	</species>
+	<species name="Hordeum jubatum" max_height="0.7">
+		<common name="Foxtail Barley" />
+		<common name="Mähnen-Gerste" lang="de" />
+		<appearance type="1" filename="Hordeum_jubatum__foxtail_barley02_256.png" height=".4" width="0.42" />
+		<appearance type="1" filename="Hordeum_jubatum__foxtail_barley01_256.png" height=".5" width="0.44" />
+	</species>
+	<species name="Juniperus osteosperma" max_height="10">
+		<common name="Utah Juniper" />
+		<common name="Utah-Wacholder" lang="de" />
+		<appearance type="1" filename="Juniperus_osteosperma__utah_juniper07_256.png" height="1" width="1.23" />
+		<appearance type="1" filename="Juniperus_osteosperma__utah_juniper10_256.png" height="2" width="1.27" />
+		<appearance type="1" filename="Juniperus_osteosperma__utah_juniper05_256.png" height="2.5" width="1.77" />
+		<appearance type="1" filename="Juniperus_osteosperma__utah_juniper03_256.png" height="4" width="5.95" />
+		<appearance type="1" filename="Juniperus_osteosperma__utah_juniper11_256.png" height="5" width="2.89" />
+		<appearance type="1" filename="Juniperus_osteosperma__utah_juniper01_256.png" height="7" width="8.34" />
+		<appearance type="1" filename="Juniperus_osteosperma__utah_juniper02_256.png" height="8" width="7.46" />
+		<appearance type="1" filename="Juniperus_osteosperma__utah_juniper06_256.png" height="8" width="8.76" />
+		<appearance type="1" filename="Juniperus_osteosperma__utah_juniper04_256.png" height="9" width="10.92" />
+	</species>
+	<species name="Leucaena leucocephala" max_height="5.00">
+		<common name="Koa haole" />
+		<common name="False koa" />
+		<common name="Hedge acacia" />
+		<common name="Horse tamarind" />
+		<common name="Jumbie bean" />
+		<common name="Lead tree" />
+		<common name="White popinac" />
+		<common name="White leadtree" />
+		<common name="Guaje" lang="es" />
+		<common name="Huaxin" lang="es" />
+		<common name="Mimosa" lang="es" />
+		<common name="Wilde Tamarinde" lang="de" />
+		<common name="Tamarindo silvestre" lang="es" />
+		<common name="Faux acacia" lang="fr" />
+		<common name="Faux mimosa" lang="fr" />
+		<common name="Petai cina" lang="id" />
+		<common name="Witte mimosa" lang="nl" />
+		<common name="Keo dậu" lang="vi" />
+		<appearance type="1" filename="koahaole1_v2_256.png" width="2.00" height="2.00" />
+	</species>
+	<species name="Linaria vulgaris" max_height="0.9">
+		<common name="Butter And Eggs" />
+		<common name="Echtes Leinkraut" lang="de" />
+		<appearance type="1" filename="Linaria_vulgaris__butter_and_eggs01_256.png" height="0.6" width="0.13" />
+	</species>
+	<species name="Litchi chinensis" max_height="12">
+		<common name="Lychee" />
+		<common name="Litschibaum" lang="de" />
+		<common name="Lichi" lang="es" />
+		<common name="Litchi" lang="fi" />
+		<common name="Litsi" lang="fr" />
+		<common name="Licsi" lang="hu" />
+		<common name="Litchi" lang="it" />
+		<common name="レイシ" lang="jp" />
+		<common name="Lychee" lang="nl" />
+		<common name="Litchi" lang="pt" />
+		<common name="Личи" lang="ru" />
+		<common name="Litchi" lang="sv" />
+		<common name="Liçi" lang="tr" />
+		<common name="荔枝" lang="zh" />
+		<appearance type="1" filename="lychee_3m_512.png" height="3.5" width="5.2" />
+		<appearance type="1" filename="lychee_4m_512.png" height="4.0" width="5.78" />
+	</species>
+	<species name="Mangifera indica" max_height="35">
+		<common name="Mango" />
+		<common name="Manguier" lang="fr" />
+		<common name="マンゴー" lang="jp" />
+		<common name="Манго" lang="ru" />
+		<common name="芒果" lang="zh" />
+		<appearance type="1" filename="mango_2m_512.png" height="2" width="1.6" />
+		<appearance type="1" filename="mango_3m_512.png" height="3" width="3.6" />
+		<appearance type="1" filename="mango_7m_512.png" height="7" width="7" />
+	</species>
+	<species name="Macadamia integrifolia" max_height="5.00">
+		<common name="Macadamia" />
+		<common name="Macadàmia" lang="ca" />
+		<common name="Macadamia" lang="de" />
+		<common name="Australianpähkinä" lang="fi" />
+		<common name="Noyer du Queensland" lang="fr" />
+		<common name="マカダミア" lang="jp" />
+		<common name="Macadâmia" lang="pt" />
+		<common name="Macadamia" lang="sv" />
+		<appearance type="1" filename="poplar_128x256.png" width="5.00" height="5.00" shadow_radius="0.8" shadow_darkness="0.5" />
+	</species>
+	<species name="Metrosideros polymorpha" max_height="10.00">
+		<common name="Ohia" />
+		<common name="Eisenholzbaum" lang="de" />
+		<appearance type="1" filename="ohia1_v5_256.png" width="1.50" height="2.00" shadow_radius="0.5" shadow_darkness="0.2" />
+		<appearance type="1" filename="ohia2_v3_256.png" width="2.00" height="3.00" shadow_radius="0.6" shadow_darkness="0.3" />
+		<appearance type="1" filename="ohia3_v4_256.png" width="1.00" height="2.50" shadow_radius="0.6" shadow_darkness="0.3" />
+		<appearance type="1" filename="ohia7_v1_256.png" width="4.90" height="7.00" />
+		<appearance type="1" filename="ohia5_v3_256.png" width="5.00" height="7.50" shadow_radius="0.6" shadow_darkness="0.3" />
+		<appearance type="1" filename="ohia4_v7_256.png" width="4.50" height="9.00" shadow_radius="0.6" shadow_darkness="0.3" />
+	</species>
+	<species name="Musa spp." max_height="6">
+		<common name="Banana" />
+		<common name="موز" lang="ar" />
+		<common name="Bananer" lang="ca" />
+		<common name="Bananbusk" lang="da" />
+		<common name="Bananenstaude" lang="de" />
+		<common name="Banano" lang="es" />
+		<common name="Banaanikasvi" lang="fi" />
+		<common name="Bananier" lang="fr" />
+		<common name="בננה" lang="he" />
+		<common name="Banano" lang="it" />
+		<common name="バナナ" lang="jp" />
+		<common name="Banaanboom" lang="nl" />
+		<common name="Bananeira" lang="pt" />
+		<common name="Bananier" lang="ro" />
+		<common name="Банан" lang="ru" />
+		<common name="Bananer" lang="sv" />
+		<common name="甘蕉" lang="zh" />
+		<appearance type="1" filename="banana1_512.png" height="2.8" width="2.4" />
+		<appearance type="1" filename="banana3_256.png" height="3" width="2.16" />
+	</species>
+<species name="Olea europaea" max_height="8">
+		<common name="Olive tree" />
+		<common name="زيتون" lang="ar" />
+		<common name="Olivenbaum" lang="de" />
+		<common name="Olivo" lang="es" />
+		<common name="Olivier Européen" lang="fr" />
+		<common name="זית אירופי" lang="he" />
+		<common name="Olivo" lang="it" />
+		<common name="Oliivipuu" lang="fi" />
+		<common name="올리브" lang="ko" />
+		<common name="Olijf" lang="nl" />
+		<common name="オリーブ" lang="ja" />
+		<common name="Oliveira" lang="pt" />
+		<common name="Măslin" lang="ro" />
+		<common name="Olivträd" lang="sv" />
+		<common name="Zeytin" lang="tr" />
+		<common name="橄欖" lang="zh" />
+		<appearance type="1" filename="olive tree 07.png" height="2.6" width="2.6" />
+		<appearance type="1" filename="olive tree 03.png" height="4.3" width="4.3" />
+		<appearance type="1" filename="olive tree 14.png" height="4.3" width="4.3" />
+		<appearance type="1" filename="olive tree 09.png" height="4.6" width="4.6" />
+		<appearance type="1" filename="olive tree 10.png" height="4.6" width="4.6" />
+		<appearance type="1" filename="olive tree 11.png" height="4.6" width="4.6" />
+		<appearance type="1" filename="olive tree 05.png" height="5" width="5" />
+		<appearance type="1" filename="olive tree 06.png" height="5" width="5" />
+		<appearance type="1" filename="olive tree 12.png" height="5" width="5" />
+		<appearance type="1" filename="olive tree 16.png" height="5" width="5" />
+		<appearance type="1" filename="olive tree 15.png" height="5.5" width="5.5" />
+		<appearance type="1" filename="olive tree 01.png" height="6" width="6" />
+		<appearance type="1" filename="olive tree 04.png" height="7" width="7" />
+	</species>
+	<species name="Opuntia polyacantha" max_height="0.4">
+		<common name="Hairspine Prickley Pear" />
+		<common name="Opuntia" lang="de" />
+		<appearance type="1" filename="Opuntia_polyacantha__hairspine_prickley_pear03_512.png" height=".1" width="0.15" />
+		<appearance type="1" filename="Opuntia_polyacantha__hairspine_prickley_pear01_512.png" height=".25" width="0.39" />
+		<appearance type="1" filename="Opuntia_polyacantha__hairspine_prickley_pear02_256.png" height=".33" width="0.39" />
+	</species>
+	<species name="Nothofagus cunninghamii" max_height="10.00">
+		<common name="Myrtle" />
+		<common name="Myrten-Südbuche" lang="de" />
+		<appearance type="1" filename="myrtle1.png" height="2.5" width="1.2" shadow_radius="0.4" shadow_darkness="0.3" />
+	</species>
+	<species name="Pennisetum setaceum" max_height="1.00">
+		<common name="Fountain Grass" />
+		<common name="Rotes Lampenputzergras" lang="de" />
+		<appearance type="1" filename="fgrass1_v2_256.png" width="1.00" height="0.80" />
+	</species>
+	<species name="Phoenix dactylifera" max_height="10">
+		<common name="Date Palm" />
+		<common name="تبلية" lang="ar" />
+		<common name="Daddelpalme" lang="da" />
+		<common name="Dattelpalme" lang="de" />
+		<common name="Echte Dattelpalme" lang="de" />
+		<common name="Palmera datilera" lang="es" />
+		<common name="Taatelipalmu" lang="fi" />
+		<common name="Palmier dattier" lang="fr" />
+		<common name="Palma da datteri" lang="it" />
+		<common name="תמר מצוי" lang="iw" />
+		<common name="ナツメヤシ" lang="jp" />
+		<common name="Dadelpalm" lang="nl" />
+		<common name="Daddelpalme" lang="no" />
+		<common name="Daktylowiec" lang="pl" />
+		<common name="Tâmara" lang="pt" />
+		<common name="枣椰树" lang="zh" />
+		<appearance type="1" filename="Phoenix_dactylifera__date_palm21_256.png" height="6" width="5.85" />
+		<appearance type="1" filename="Phoenix_dactylifera__date_palm03_256.png" height="10" width="6.51" />
+	</species>
+	<species name="Picea engelmannii" max_height="50">
+		<common name="Engelmann Spruce" />
+		<common name="Engelmann-Fichte" lang="de" />
+		<appearance type="1" filename="Picea_englemanni__englemann_spruce01_256.png" height="45" width="16.13" />
+	</species>
+	<species name="Picea pungens" max_height="21">
+		<common name="Blue Spruce" />
+		<common name="Stech-Fichte" lang="de" />
+		<appearance type="1" filename="Picea_pungens__blue_spruce01_256.png" height="7" width="5.85" />
+		<appearance type="1" filename="Picea_pungens__blue_spruce03_256.png" height="7" width="4.68" />
+		<appearance type="1" filename="Picea_pungens__blue_spruce08_256.png" height="8" width="6.67" />
+		<appearance type="1" filename="Picea_pungens__blue_spruce02_256.png" height="9" width="5.94" />
+		<appearance type="1" filename="Picea_pungens__blue_spruce04_256.png" height="9" width="6.41" />
+		<appearance type="1" filename="Picea_pungens__blue_spruce05_256.png" height="10" width="5.52" />
+		<appearance type="1" filename="Picea_pungens__blue_spruce07_256.png" height="12" width="6.29" />
+		<appearance type="1" filename="Picea_pungens__blue_spruce06_256.png" height="14" width="9.03" />
+		<appearance type="1" filename="Picea_pungens__blue_spruce09_256.png" height="14" width="9.39" />
+		<appearance type="1" filename="Picea_pungens__blue_spruce14_256.png" height="16" width="9.13" />
+		<appearance type="1" filename="Picea_pungens__blue_spruce10_256.png" height="18" width="7.97" />
+		<appearance type="1" filename="Picea_pungens__blue_spruce15_256.png" height="18" width="10.46" />
+		<appearance type="1" filename="Picea_pungens__blue_spruce12_256.png" height="19" width="4.63" />
+		<appearance type="1" filename="Picea_pungens__blue_spruce11_256.png" height="20" width="5.33" />
+		<appearance type="1" filename="Picea_pungens__blue_spruce13_256.png" height="21" width="6.10" />
+	</species>
+	<species name="Picea sitchensis" max_height="80">
+		<common name="Sitka Spruce" />
+		<common name="Sitka-Fichte" lang="de" />
+		<appearance type="1" filename="Picea_sitchensis__sitka_spruce01_256.png" height="50" width="20.81" />
+	</species>
+	<species name="Pinus aristata" max_height="15">
+		<common name="Bristlecone Pine" />
+		<common name="Grannen-Kiefer" lang="de" />
+		<appearance type="1" filename="Pinus_aristata__bristlecone_pine13_256.png" height="5" width="1.73" />
+		<appearance type="1" filename="Pinus_aristata__bristlecone_pine11_256.png" height="6" width="3.85" />
+		<appearance type="1" filename="Pinus_aristata__bristlecone_pine12_256.png" height="6" width="2.31" />
+		<appearance type="1" filename="Pinus_aristata__bristlecone_pine05_256.png" height="8" width="8.23" />
+		<appearance type="1" filename="Pinus_aristata__bristlecone_pine06_256.png" height="8" width="6.00" />
+		<appearance type="1" filename="Pinus_aristata__bristlecone_pine01_256.png" height="9" width="6.83" />
+		<appearance type="1" filename="Pinus_aristata__bristlecone_pine02_256.png" height="10" width="6.53" />
+		<appearance type="1" filename="Pinus_aristata__bristlecone_pine07_256.png" height="12" width="7.12" />
+		<appearance type="1" filename="Pinus_aristata__bristlecone_pine04_256.png" height="13" width="6.97" />
+		<appearance type="1" filename="Pinus_aristata__bristlecone_pine08_256.png" height="14" width="11.71" />
+		<appearance type="1" filename="Pinus_aristata__bristlecone_pine03_256.png" height="15" width="9.35" />
+	</species>
+	<species name="Pinus albicaulis" max_height="21">
+		<common name="Whitebark Pine" />
+		<common name="Weissstämmige Kiefer" lang="de" />
+		<appearance type="1" filename="Pinus_albicaulis__whitebark_pine02_256.png" height="3" width="4.46" />
+		<appearance type="1" filename="Pinus_albicaulis__whitebark_pine04_256.png" height="7" width="6.58" />
+		<appearance type="1" filename="Pinus_albicaulis__whitebark_pine03_256.png" height="9" width="5.48" />
+		<appearance type="1" filename="Pinus_albicaulis__whitebark_pine01_256.png" height="10" width="6.44" />
+		<appearance type="1" filename="Pinus_albicaulis__whitebark_pine06_256.png" height="14" width="16.12" />
+		<appearance type="1" filename="Pinus_albicaulis__whitebark_pine05_256.png" height="16" width="12.51" />
+	</species>
+	<species name="Pinus contorta" max_height="22">
+		<common name="Lodgepole Pine" />
+		<common name="Küsten-Kiefer" lang="de" />
+		<appearance type="1" filename="Pinus_contorta__lodgepole_pine04_256.png" height="5" width="2.5" />
+		<appearance type="1" filename="Pinus_contorta__lodgepole_pine01_256.png" height="10" width="2.76" />
+		<appearance type="1" filename="Pinus_contorta__lodgepole_pine02_256.png" height="10" width="2.5" />
+		<appearance type="1" filename="Pinus_contorta__lodgepole_pine11_256.png" height="11" width="2" />
+		<appearance type="1" filename="Pinus_contorta__lodgepole_pine12_256.png" height="11" width="6.11" />
+		<appearance type="1" filename="Pinus_contorta__lodgepole_pine15_256.png" height="11" width="5.17" />
+		<appearance type="1" filename="Pinus_contorta__lodgepole_pine06_256.png" height="12" width="3.5" />
+		<appearance type="1" filename="Pinus_contorta__lodgepole_pine10_256.png" height="13" width="7.26" />
+		<appearance type="1" filename="Pinus_contorta__lodgepole_pine03_256.png" height="14" width="4.43" />
+		<appearance type="1" filename="Pinus_contorta__lodgepole_pine16_256.png" height="14" width="3.77" />
+		<appearance type="1" filename="Pinus_contorta__lodgepole_pine07_256.png" height="15" width="6.71" />
+		<appearance type="1" filename="Pinus_contorta__lodgepole_pine05_256.png" height="16" width="5.67" />
+		<appearance type="1" filename="Pinus_contorta__lodgepole_pine17_256.png" height="16" width="6.94" />
+		<appearance type="1" filename="Pinus_contorta__lodgepole_pine14_256.png" height="17" width="5.00" />
+		<appearance type="1" filename="Pinus_contorta__lodgepole_pine09_256.png" height="21" width="6.03" />
+	</species>
+	<species name="Pinus contorta var. latifolia" max_height="22">
+		<common name="Rocky Mountain Lodgepole Pine" />
+		<common name="Rocky Mountain Küsten-Kiefer" lang="de" />
+		<appearance type="1" filename="Pinus_contorta_var._latifolia__lodgepole_pine01_256.png" height="11" width="2.24" />
+		<appearance type="1" filename="Pinus_contorta_var._latifolia__lodgepole_pine02_256.png" height="15" width="5.76" />
+		<appearance type="1" filename="Pinus_contorta_var._latifolia__lodgepole_pine03_256.png" height="18" width="9.75" />
+	</species>
+	<species name="Pinus monticola" max_height="25">
+		<common name="Western White Pine" />
+		<common name="Westliche Weymouths-Kiefer" lang="de" />
+		<appearance type="1" filename="Pinus_monticola__western_white_pine02_256.png" height="10" width="7.2" />
+		<appearance type="1" filename="Pinus_monticola__western_white_pine03_256.png" height="15" width="10.14" />
+		<appearance type="1" filename="Pinus_monticola__western_white_pine01_256.png" height="20" width="11.99" />
+	</species>
+	<species name="Pinus pinea" max_height="15">
+		<common name="Stone Pine" />
+		<common name="Umbrella Pine" />
+		<common name="Pinie" lang="de" />
+		<common name="Pino Piñonero" lang="es" />
+		<common name="Pinja" lang="fi" />
+		<common name="Pin Parasol" lang="fr" />
+		<common name="Pino a Ombrello" lang="it" />
+		<common name="Pino Domestico " lang="it" />
+		<common name="Parasolden" lang="nl" />
+		<common name="Pinheiro-manso" lang="pt" />
+		<common name="Пиния" lang="ru" />
+		<common name="Pinje" lang="sv" />
+		<common name="Fıstık çamı" lang="tr" />
+		<appearance type="1" filename="pino_2341.png" height="7.5" width="7.5" />
+		<appearance type="1" filename="pino_2336.png" height="7.5" width="7.5" />
+		<appearance type="1" filename="pino_2335.png" height="8.3" width="8.3" />
+		<appearance type="1" filename="pino_2383.png" height="10" width="6" />
+		<appearance type="1" filename="pino_2365.png" height="11.1" width="11.1" />
+		<appearance type="1" filename="pino_2361.png" height="11.1" width="11.1" />
+		<appearance type="1" filename="pino_2338.png" height="11.1" width="11.1" />
+	</species>
+	<species name="Pinus ponderosa" max_height="25">
+		<common name="Ponderosa Pine" />
+		<common name="Gelb-Kiefer" lang="de" />
+		<appearance type="1" filename="pine1_6m_256.png" width="4.5" height="6" />
+		<appearance type="1" filename="Pinus_ponderosa__ponderosa_pine11_256.png" height="9" width="7.73" />
+		<appearance type="1" filename="pine1_10m_256.png" width="8" height="10" />
+		<appearance type="1" filename="Pinus_ponderosa__ponderosa_pine10_256.png" height="12" width="7.08" />
+		<appearance type="1" filename="Pinus_ponderosa__ponderosa_pine02_256.png" height="15" width="11.5" />
+		<appearance type="1" filename="Pinus_ponderosa__ponderosa_pine01_256.png" height="16" width="12.93" />
+		<appearance type="1" filename="Pinus_ponderosa__ponderosa_pine07_256.png" height="17" width="16.21" />
+		<appearance type="1" filename="Pinus_ponderosa__ponderosa_pine03_256.png" height="18" width="12.61" />
+		<appearance type="1" filename="Pinus_ponderosa__ponderosa_pine04_256.png" height="18" width="9.87" />
+		<appearance type="1" filename="Pinus_ponderosa__ponderosa_pine09_256.png" height="19" width="10.3" />
+		<appearance type="1" filename="pine1_20m_256.png" width="9.25" height="20" />
+		<appearance type="1" filename="Pinus_ponderosa__ponderosa_pine06_256.png" height="20" width="17.62" />
+		<appearance type="1" filename="Pinus_ponderosa__ponderosa_pine05_256.png" height="22" width="18.91" />
+		<appearance type="1" filename="Pinus_ponderosa__ponderosa_pine08_256.png" height="23" width="9.93" />
+	</species>
+	<species name="Podocarpus sp." max_height="25.0">
+		<common name="Podocarpus" />
+		<appearance type="1" filename="podocarpus_9m_512x512.png" height="9" width="5" />
+	</species>
+	<species name="Polystichum munitum" max_height="1.0">
+		<common name="Sword Fern" />
+		<common name="Western Sword Fern" />
+		<common name="Common Sword Fern" />
+		<common name="Schwertfarn" lang="de" />
+		<appearance type="1" filename="Polystichum_munitum__sword_fern04_256.png" height=".33" width="0.49" />
+		<appearance type="1" filename="Polystichum_munitum__sword_fern05_512.png" height=".4" width="0.74" />
+		<appearance type="1" filename="Polystichum_munitum__sword_fern01_256.png" height=".5" width="0.73" />
+		<appearance type="1" filename="Polystichum_munitum__sword_fern02_256.png" height=".7" width="0.77" />
+		<appearance type="1" filename="Polystichum_munitum__sword_fern03_256.png" height=".9" width="1.04" />
+	</species>
+	<species name="Pomaderris apetala" max_height="24.00">
+		<common name="Pomaderris" />
+		<common name="Kreuzdorngewächs" lang="de" />
+		<appearance type="1" filename="pomaderris1.png" height="1.7" width="1.14" shadow_radius="0.6" shadow_darkness="0.2" />
+		<appearance type="1" filename="pomaderris3.png" height="4.5" width="1.8" shadow_radius="0.6" shadow_darkness="0.2" />
+	</species>
+	<species name="Populus tremuloides" max_height="20">
+		<common name="Quaking Aspen" />
+		<common name="Amerikanische Espe" lang="de" />
+		<common name="Peuplier Faux-tremble" lang="fr" />
+		<appearance type="1" filename="Populus_tremuloides__aspen_no_leaves04_256.png" height="7.5" width="3.36" />
+		<appearance type="1" filename="Populus_tremuloides__aspen_no_leaves01_256.png" height="10" width="3.09" />
+		<appearance type="1" filename="Populus_tremuloides__aspen_no_leaves05_256.png" height="10" width="3.6" />
+		<appearance type="1" filename="Populus_tremuloides__aspen_no_leaves02_256.png" height="12" width="3.43" />
+		<appearance type="1" filename="Populus_tremuloides__aspen_no_leaves03_256.png" height="12" width="4.02" />
+		<url>http://en.wikipedia.org/wiki/Poplar</url>
+	</species>
+	<species name="Populus trichocarpa" max_height="55">
+		<common name="Black Cottonwood" />
+		<common name="Balsam Poplar" />
+		<common name="Western Balsam Poplar" />
+		<common name="Peuplier baumier" lang="fr" />
+		<common name="Westliche Balsam-Pappel" lang="de" />
+		<appearance type="1" filename="Populus_trichocarpa__black_cottonwood06_256.png" height="3" width="1.95" />
+		<appearance type="1" filename="Populus_trichocarpa__black_cottonwood02_256.png" height="9" width="6.52" />
+		<appearance type="1" filename="Populus_trichocarpa__black_cottonwood09_256.png" height="10" width="6.39" />
+		<appearance type="1" filename="Populus_trichocarpa__black_cottonwood01_256.png" height="12" width="10.33" />
+		<appearance type="1" filename="Populus_trichocarpa__black_cottonwood05_256.png" height="15" width="9.4" />
+		<appearance type="1" filename="Populus_trichocarpa__black_cottonwood08_256.png" height="18" width="9.95" />
+		<appearance type="1" filename="Populus_trichocarpa__black_cottonwood03_256.png" height="25" width="12.25" />
+		<appearance type="1" filename="Populus_trichocarpa__black_cottonwood04_256.png" height="25" width="11.66" />
+		<url>http://en.wikipedia.org/wiki/Balsam_poplar</url>
+	</species>
+	<species name="Prosopis pallida" max_height="5.00">
+		<common name="Kiawe" />
+		<common name="Algarrobo americano" lang="es" />
+		<common name="Amerikanischer Johannisbrotbaum" lang="de" />
+		<appearance type="1" filename="kiawe2_v3_256.png" width="3.00" height="3.50" shadow_radius="0.4" shadow_darkness="0.2" />
+		<appearance type="1" filename="kiawe1_v4_256.png" width="5.00" height="4.00" shadow_radius="0.4" shadow_darkness="0.2" />
+	</species>
+	<species name="Pseudotsuga spp." max_height="65">
+		<common name="Douglas Fir" />
+		<common name="Douglasgran" lang="da" />
+		<common name="Douglasie" lang="de" />
+		<common name="Abeto de Douglas" lang="es" />
+		<common name="Douglas-fir" lang="es" />
+		<common name="Douglaskuusi" lang="fi" />
+		<common name="Sapin de Douglas" lang="fr" />
+		<common name="Duglasia" lang="it" />
+		<common name="Abete di Douglas" lang="it" />
+		<common name="Douglasspar" lang="nl" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir02_256.png" height="12" width="9.16" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir12_256.png" height="12" width="7.14" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir16_256.png" height="12" width="5.3" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir17_256.png" height="12" width="7.1" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir10_256.png" height="14" width="8.26" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir08_256.png" height="15" width="10.09" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir05_256.png" height="18" width="7.57" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir20_256.png" height="18" width="7.45" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir19_256.png" height="20" width="6.16" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir01_256.png" height="25" width="15.05" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir03_256.png" height="25" width="10.7" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir04_256.png" height="25" width="4.57" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir09_256.png" height="25" width="5.09" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir11_256.png" height="25" width="6.14" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir13_256.png" height="25" width="4.62" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir14_256.png" height="25" width="5.28" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir15_256.png" height="25" width="3.86" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir18_256.png" height="25" width="6.56" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir06_256.png" height="30" width="8.31" />
+		<appearance type="1" filename="Pseudotsuga_menziesii__douglas_fir07_256.png" height="30" width="8.33" />
+		<url>http://en.wikipedia.org/wiki/Pseudotsuga</url>
+	</species>
+	<species name="Psidium cattleianum" max_height="4.50">
+		<common name="Strawberry Guava" />
+		<common name="Waiawi" />
+		<common name="Erdbeer-Guave" lang="de" />
+		<common name="Goyavier de Chine" lang="fr" />
+		<common name="Aardbeiguave" lang="nl" />
+		<common name="Araçá-rosa" lang="pt" />
+		<common name="Земляничная гуава" lang="ru" />
+		<appearance type="1" filename="squava1_v2_128.png" width="0.75" height="3.00" />
+	</species>
+	<species name="Quercus gambelii" max_height="12">
+		<common name="Gamble Oak" />
+		<common name="Oakbrush" />
+		<common name="Gambel-Eiche" lang="de" />
+		<appearance type="1" filename="Quercus_gambelii__gamble_oak_or_oakbrush03_256.png" height="1" width="1.07" />
+		<appearance type="1" filename="Quercus_gambelii__gamble_oak_or_oakbrush05_256.png" height="1" width="0.37" />
+		<appearance type="1" filename="Quercus_gambelii__gamble_oak_or_oakbrush07_256.png" height="1" width="0.63" />
+		<appearance type="1" filename="Quercus_gambelii__gamble_oak_or_oakbrush08_256.png" height="1" width="0.45" />
+		<appearance type="1" filename="Quercus_gambelii__gamble_oak_or_oakbrush10_256.png" height="1" width="0.67" />
+		<appearance type="1" filename="Quercus_gambelii__gamble_oak_or_oakbrush02_256.png" height="2" width="1.59" />
+		<appearance type="1" filename="Quercus_gambelii__gamble_oak_or_oakbrush04_256.png" height="2" width="1.49" />
+		<appearance type="1" filename="Quercus_gambelii__gamble_oak_or_oakbrush06_256.png" height="2" width="2.03" />
+		<appearance type="1" filename="Quercus_gambelii__gamble_oak_or_oakbrush11_256.png" height="2" width="0.86" />
+		<appearance type="1" filename="Quercus_gambelii__gamble_oak_or_oakbrush12_256.png" height="2" width="0.9" />
+		<appearance type="1" filename="Quercus_gambelii__gamble_oak_or_oakbrush01_256.png" height="3" width="1.55" />
+		<appearance type="1" filename="Quercus_gambelii__gamble_oak_or_oakbrush09_256.png" height="3" width="2.01" />
+	</species>
+	<species name="Rosa woodsi" max_height="2">
+		<common name="Woods Rose" />
+		<common name="Woods Rose" lang="de" />
+		<appearance type="1" filename="Rosa_woodsi__woods_rose03_512.png" height="1" width="1.51" />
+		<appearance type="1" filename="Rosa_woodsi__woods_rose04_512.png" height="1" width="1.56" />
+		<appearance type="1" filename="Rosa_woodsi__woods_rose01_256.png" height="1.5" width="1.22" />
+		<appearance type="1" filename="Rosa_woodsi__woods_rose02_256.png" height="1.5" width="1.43" />
+	</species>
+	<species name="Salix spp." max_height="5">
+		<common name="Willow" />
+		<common name="Weide" lang="de" />
+		<common name="Saule" lang="fr" />
+		<common name="Salix" lang="it" />
+		<common name="Wilg" lang="nl" />
+		<common name="Хæрис" lang="ru" />
+		<common name="Söğüt" lang="tr" />
+		<common name="Pile-slægten" lang="da" />
+		<common name="Paju" lang="fi" />
+		<common name="Pil" lang="sv" />
+		<appearance type="1" filename="Salix_L__willow01_256.png" height="1.5" width="2.16" />
+	</species>
+	<species name="Salix drummondiana" max_height="3.5">
+		<common name="Drummond's Willow" />
+		<common name="Drummond's-Weide" lang="de" />
+		<appearance type="1" filename="Salix_drummondiana__drummond_s_willow02_256.png" height="1.5" width="1.88" />
+		<appearance type="1" filename="Salix_drummondiana__drummond_s_willow01_256.png" height="2" width="1.99" />
+	</species>
+	<species name="Salix scouleriana" max_height="15">
+		<common name="Scouler's Willow" />
+		<common name="Scouler's-Weide" lang="de" />
+		<appearance type="1" filename="Salix_scouleriana__scouler_s_willow01_512.png" height="2" width="4.11" />
+		<appearance type="1" filename="Salix_scouleriana__scouler_s_willow02_256.png" height="7" width="7.89" />
+	</species>
+	<species name="Salvia pratensis" max_height="0.6">
+		<common name="Meadow Sage" />
+		<common name="Introduced Sage" />
+		<common name="Meadow Clary" />
+		<common name="Romanian Sage" />
+		<common name="Transylvanian Sage" />
+		<common name="Wiesensalbei" lang="de" />
+		<common name="Niittysalvia" lang="fi" />
+		<common name="Ängssalvia" lang="sv" />
+		<appearance type="1" filename="Salvia_pratensis__meadow_sage01_256.png" height="0.5" width="0.52" />
+		<appearance type="1" filename="Salvia_pratensis__meadow_sage02_256.png" height="0.5" width="0.37" />
+		<appearance type="1" filename="Salvia_pratensis__meadow_sage03_256.png" height="0.5" width="0.43" />
+		<appearance type="1" filename="Salvia_pratensis__meadow_sage04_256.png" height="0.5" width="0.52" />
+	</species>
+	<species name="Sarcobatus vermiculatus" max_height="2.5">
+		<common name="Greasewood" />
+		<common name="Black Greasewood" />
+		<common name="Nelkenart" lang="de" />
+		<appearance type="1" filename="Sarcobatus_vermiculatus__greasewood03_256.png" height=".5" width="0.55" />
+		<appearance type="1" filename="Sarcobatus_vermiculatus__greasewood05_512.png" height="1.5" width="2.36" />
+		<appearance type="1" filename="Sarcobatus_vermiculatus__greasewood11_256.png" height="1.5" width="2.24" />
+		<appearance type="1" filename="Sarcobatus_vermiculatus__greasewood13_512.png" height="1.5" width="2.62" />
+		<appearance type="1" filename="Sarcobatus_vermiculatus__greasewood09_256.png" height="2" width="1.93" />
+		<appearance type="1" filename="Sarcobatus_vermiculatus__greasewood12_256.png" height="2" width="2.02" />
+		<appearance type="1" filename="Sarcobatus_vermiculatus__greasewood17_256.png" height="2" width="2.27" />
+		<appearance type="1" filename="Sarcobatus_vermiculatus__greasewood18_512.png" height="2" width="3.04" />
+	</species>
+	<species name="Sedum spurium" max_height=".15">
+		<common name="Dragon's Blood Sedum" />
+		<common name="Purple Carpet Stonecrop" />
+		<common name="Two-row Stonecrop" />
+		<common name="Tripmadam" lang="de" />
+		<common name="Kaukasusfetthenne" lang="de" />
+		<common name="Maksaruoho" lang="fi" />
+		<common name="Fetblad" lang="sv" />
+		<appearance type="1" filename="Sedum_spurium__purple_carpet_stonecrop01_512.png" height=".1" width="0.18" />
+	</species>
+	<species name="Sophora chrysophylla" max_height="7.00">
+		<common name="Mamane" />
+		<appearance type="1" filename="mamane1_v2_256.png" width="3.00" height="3.00" />
+	</species>
+	<species name="Syagrus romanzoffiana" max_height="15">
+		<common name="Queen Palm" />
+		<common name="Königinpalme" lang="de" />
+		<common name="Palmera Pindó" lang="es" />
+		<common name="Romanzoffianische Kokospalme" lang="de" />
+		<common name="Palmier de Romanzoff" lang="fr" />
+		<common name="Jerivá" lang="pt" />
+		<appearance type="1" filename="Syagrus_romanzoffianum__queen_palm02_256.png" height="10" width="7.87" />
+	</species>
+	<species name="Thuja plicata" max_height="45">
+		<common name="Western Red Cedar" />
+		<common name="Western Redcedar" />
+		<common name="Riesen-Lebensbaum" lang="de" />
+		<common name="Jättituija" lang="fi" />
+		<common name="Reuzenlevensboom" lang="nl" />
+		<common name="Туя складчатая" lang="ru" />
+		<common name="Jättetuja" lang="sv" />
+		<common name="Boylu mazı" lang="tr" />
+		<appearance type="1" filename="Thuja_plicata__western_red_cedar06_256.png" height="25" width="16.04" />
+		<appearance type="1" filename="Thuja_plicata__western_red_cedar01_256.png" height="40" width="16.08" />
+		<appearance type="1" filename="Thuja_plicata__western_red_cedar04_256.png" height="40" width="18.78" />
+		<appearance type="1" filename="Thuja_plicata__western_red_cedar02_256.png" height="45" width="15.99" />
+		<appearance type="1" filename="Thuja_plicata__western_red_cedar03_256.png" height="45" width="18.75" />
+		<appearance type="1" filename="Thuja_plicata__western_red_cedar05_256.png" height="45" width="20.94" />
+		<url>http://en.wikipedia.org/wiki/Thuja_plicata</url>
+	</species>
+	<species name="Tsuga heterophylla" max_height="70">
+		<common name="Western Hemlock" />
+		<common name="Westliche Hemlocktanne" lang="de" />
+		<common name="Pruche de l'ouest" lang="fr" />
+		<common name="Westamerikanische Hemlocktanne" lang="de" />
+		<common name="Lännenhemlokki" lang="fi" />
+		<common name="Westerse hemlockspar" lang="nl" />
+		<common name="Västamerikansk Hemlock" lang="sv" />
+		<appearance type="1" filename="Tsuga_heterophylla__western_hemlock03_256.png" height="20" width="16.47" />
+		<appearance type="1" filename="Tsuga_heterophylla__western_hemlock02_256.png" height="25" width="18.65" />
+		<appearance type="1" filename="Tsuga_heterophylla__western_hemlock05_256.png" height="35" width="18.11" />
+		<appearance type="1" filename="Tsuga_heterophylla__western_hemlock01_256.png" height="40" width="16.82" />
+		<appearance type="1" filename="Tsuga_heterophylla__western_hemlock04_256.png" height="45" width="24.57" />
+		<url>http://en.wikipedia.org/wiki/Tsuga_heterophylla</url>
+	</species>
+	<species name="Tsuga mertensiana" max_height="40">
+		<common name="Mountain Hemlock" />
+		<common name="Alpine Hemlock" />
+		<common name="Berg-Hemlocktanne" lang="de" />
+		<common name="Berghemlock" lang="sv" />
+		<common name="Pruche de Patton" lang="fr" />
+		<appearance type="1" filename="Tsuga_mertensiana__mountain_hemlock06_256.png" height="8" width="6.73" />
+		<appearance type="1" filename="Tsuga_mertensiana__mountain_hemlock04_256.png" height="15" width="8.83" />
+		<appearance type="1" filename="Tsuga_mertensiana__mountain_hemlock01_256.png" height="20" width="8.5" />
+		<appearance type="1" filename="Tsuga_mertensiana__mountain_hemlock03_256.png" height="20" width="8.79" />
+		<appearance type="1" filename="Tsuga_mertensiana__mountain_hemlock02_256.png" height="25" width="7.39" />
+		<appearance type="1" filename="Tsuga_mertensiana__mountain_hemlock05_256.png" height="25" width="8.99" />
+		<url>http://en.wikipedia.org/wiki/Tsuga_mertensiana</url>
+	</species>
+	<species name="Viola tricolor" max_height=".6">
+		<common name="Wild Pansy" />
+		<common name="Johnny-Jump-Up" />
+		<common name="Jump-Up" />
+		<common name="Heart's Ease" />
+		<common name="Wildes Stiefmütterchen" lang="de" />
+		<common name="Aaskannike" lang="et" />
+		<common name="Keto-orvokki" lang="fi" />
+		<common name="Pensée sauvage" lang="fr" />
+		<common name="Viola del pensiero" lang="it" />
+		<common name="Driekleurig viooltje" lang="nl" />
+		<common name="Stemorsblom" lang="nn" />
+		<common name="Fiołek trójbarwny" lang="pl" />
+		<common name="Styvmorsviol" lang="sv" />
+		<appearance type="1" filename="Viola_bicolor_Johnny-Jump-Up__field_pansy01_256.png" height=".5" width="0.4" />
+		<appearance type="1" filename="Viola_bicolor_Johnny-Jump-Up__field_pansy05_256.png" height=".5" width="0.43" />
+		<url>http://en.wikipedia.org/wiki/Viola_tricolor</url>
+	</species>
+	<species name="Washingtonia robusta" max_height="20">
+		<common name="Washington Palm" />
+		<common name="Mexican Fan Palm" />
+		<common name="Petticoat-Palme" lang="de" />
+		<common name="Palmera de abanico" lang="es" />
+		<common name="Palmier évantail du Méxique" lang="fr" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm14_256.png" height="2" width="1.83" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm16_256.png" height="2" width="2.18" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm09_256.png" height="3" width="3.65" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm05_256.png" height="6" width="4.65" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm15_256.png" height="6" width="3.89" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm01_256.png" height="7" width="5.22" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm10_256.png" height="9" width="4.19" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm07_256.png" height="12" width="5.18" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm11_256.png" height="12" width="4.67" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm17_256.png" height="12" width="5.05" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm18_256.png" height="12" width="4.46" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm08_256.png" height="14" width="4.75" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm04_256.png" height="15" width="5.21" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm06_256.png" height="15" width="5" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm19_256.png" height="15" width="5.1" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm20_256.png" height="15" width="7.11" />
+		<appearance type="1" filename="Washingtonia_robusta__mexican_fan_palm13_256.png" height="18" width="5.78" />
+	</species>
+	<species name="Yucca baccata" max_height="1.5">
+		<common name="Banana Yucca" />
+		<common name="Bananen-Yucca" lang="de" />
+		<appearance type="1" filename="Yucca_baccata__banana_yucca01_512.png" height="0.5" width="0.82" />
+		<appearance type="1" filename="Yucca_baccata__banana_yucca02_512.png" height="1.0" width="2.72" />
+		<appearance type="1" filename="Yucca_baccata__banana_yucca04_256.png" height="1.0" width="1.45" />
+		<appearance type="1" filename="Yucca_baccata__banana_yucca05_256.png" height="1.0" width="1.33" />
+		<appearance type="1" filename="Yucca_baccata__banana_yucca06_256.png" height="1.0" width="1.26" />
+		<appearance type="1" filename="Yucca_baccata__banana_yucca03_256.png" height="1.3" width="1.57" />
+	</species>
+</species-file>

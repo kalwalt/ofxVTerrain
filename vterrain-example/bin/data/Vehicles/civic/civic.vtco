@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<vtp-content file-format-version="1.1">
+	<item name="untitled">
+		<type>ground vehicle</type>
+		<subtype></subtype>
+		<extents>-2.99, 3.03, 3.00, -2.96</extents>
+		<model filename="C:/VTP/Data/Vehicles/civic/HondaCivic-v5.ive" />
+	</item>
+</vtp-content>

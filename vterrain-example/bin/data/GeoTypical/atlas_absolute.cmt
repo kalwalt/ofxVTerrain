@@ -1,0 +1,17 @@
+colormap1
+blend: 1
+relative: 0
+size 13
+	elev -10000 color 0 0 0
+	elev -5000 color 0 64 128
+	elev -1000 color 84 84 245
+	elev -500 color 147 147 255
+	elev -0.01 color 167 233 254
+	elev 0 color 0 0 255
+	elev 0.01 color 90 164 17
+	elev 200 color 120 194 37
+	elev 600 color 152 220 78
+	elev 1500 color 188 188 120
+	elev 3000 color 214 206 141
+	elev 4000 color 192 192 192
+	elev 10000 color 255 196 136
