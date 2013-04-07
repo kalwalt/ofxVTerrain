@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="vterrain" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons/;src/;build config/;addons/ofxVTerrain/libs/src/minidata/;addons/ofxVTerrain/libs/src/unzip/;addons/ofxVTerrain/libs/src/vtdata/;addons/ofxVTerrain/libs/src/vtdata/shapelib/;addons/ofxVTerrain/libs/src/vtdata/triangle/;addons/ofxVTerrain/libs/src/vtlib/;addons/ofxVTerrain/libs/src/vtlib/core/;addons/ofxVTerrain/libs/src/vtlib/vtosg/;src/xmlhelper/;addons/ofxVTerrain/src/;" />
+		<Build>
+			<Script file="lib_finder.script" />
+			<Target title="Debug">
+				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworksDebug.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add directory="../../../addons/ofxVTerrain/libs/src/vtlib" />
+					<Add directory="../../../addons/ofxVTerrain/libs/src/vtdata" />
+					<Add directory="../../../addons/ofxVTerrain/libs/src/unzip" />
+					<Add directory="../../../addons/ofxVTerrain/libs/src/minidata" />
+					<Add directory="src" />
+					<Add directory="src/xmlhelper" />
+				</Compiler>
+				<Linker>
+					<Add library="z" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/vTerrain" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworks.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-DVTUNIX=1" />
+					<Add option="-DSUPPORT_BZIP2" />
+					<Add option="-DSUPPORT_CURL" />
+					<Add option="-DNOUNCRYPT" />
+					<Add directory="src/xmlhelper/include" />
+					<Add directory="../../../addons/ofxVTerrain/libs/src" />
+					<Add directory="../../../addons/ofxVTerrain/libs/src/vtlib" />
+					<Add directory="../../../addons/ofxVTerrain/libs/src/vtdata" />
+					<Add directory="../../../addons/ofxVTerrain/libs/src/unzip" />
+					<Add directory="../../../addons/ofxVTerrain/libs/src/minidata" />
+					<Add directory="src/xmlhelper" />
+					<Add directory="../../../../../../../usr/local/include" />
+					<Add directory="../../../../../../../usr/include/gdal" />
+					<Add directory="../../../libs/openFrameworks" />
+					<Add directory="../../../libs/openFrameworks/3d" />
+					<Add directory="../../../libs/openFrameworks/app" />
+					<Add directory="../../../libs/openFrameworks/communication" />
+					<Add directory="../../../libs/openFrameworks/events" />
+					<Add directory="../../../libs/openFrameworks/gl" />
+					<Add directory="../../../libs/openFrameworks/graphics" />
+					<Add directory="../../../libs/openFrameworks/math" />
+					<Add directory="../../../libs/openFrameworks/sound" />
+					<Add directory="../../../libs/openFrameworks/types" />
+					<Add directory="../../../libs/openFrameworks/utils" />
+					<Add directory="../../../libs/openFrameworks/video" />
+					<Add directory="../../../libs/glew/include" />
+					<Add directory="../../../libs/glu/include" />
+					<Add directory="../../../libs/glut/include" />
+					<Add directory="../../../libs/portaudio/include" />
+					<Add directory="../../../libs/poco/include" />
+					<Add directory="../../../../../../../usr/include" />
+					<Add directory="../../../../../../../usr/include/GL" />
+					<Add directory="../../../libs/tess2/include" />
+					<Add directory="../../../libs/cairo/include/cairo" />
+					<Add directory="../../../libs/kiss/include" />
+					<Add directory="../../../libs/freetype/include" />
+					<Add directory="../../../libs/FreeImage/include" />
+					<Add directory="../../../libs/videoInput/include" />
+					<Add directory="../../../../../../../usr/include/gstreamer-0.10" />
+					<Add directory="../../../../../../../usr/include/glib-2.0" />
+					<Add directory="../../../../../../../usr/include/gtk-2.0/gtk" />
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add library="png" />
+					<Add library="jpeg" />
+					<Add library="osg" />
+					<Add library="OpenThreads" />
+					<Add library="gdal" />
+					<Add library="Mini" />
+					<Add library="osgDB" />
+					<Add library="osgSim" />
+					<Add library="osgTerrain" />
+					<Add library="osgText" />
+					<Add library="osgUtil" />
+					<Add library="osgShadow" />
+					<Add library="osgGA" />
+					<Add library="osgParticle" />
+					<Add library="osgViewer" />
+					<Add library="bz2" />
+					<Add library="../../../addons/ofxVTerrain/libs/lib/libminidata.a" />
+					<Add library="../../../addons/ofxVTerrain/libs/lib/libunzip.a" />
+					<Add library="../../../addons/ofxVTerrain/libs/lib/libvtlib.a" />
+					<Add library="../../../addons/ofxVTerrain/libs/lib/libxmlhelper.a" />
+					<Add library="../../../addons/ofxVTerrain/libs/lib/libvtdata.a" />
+					<Add library="GLU" />
+					<Add library="GL" />
+					<Add library="glut" />
+					<Add library="GLEW" />
+					<Add library="freeimage" />
+					<Add library="cairo" />
+					<Add library="openal" />
+					<Add library="mpg123" />
+					<Add library="sndfile" />
+					<Add library="../../../libs/kiss/lib/linux64/libkiss.a" />
+					<Add library="../../../libs/freetype/lib/linux64/libfreetype.a" />
+					<Add library="../../../libs/poco/lib/linux64/libPocoNet.a" />
+					<Add library="../../../libs/poco/lib/linux64/libPocoUtil.a" />
+					<Add library="../../../libs/poco/lib/linux64/libPocoFoundation.a" />
+					<Add library="../../../libs/tess2/lib/linux64/libtess2.a" />
+					<Add library="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworks.a" />
+					<Add library="curl" />
+					<Add library="../../../../../../../usr/lib/x86_64-linux-gnu/libz.a" />
+					<Add library="udev" />
+					<Add library="zzip" />
+					<Add library="m" />
+					<Add library="z" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-Wl,-rpath=./libs  -fPIC" />
+			<Add option="-DVTUNIX=1" />
+			<Add option="-DSUPPORT_CURL" />
+			<Add option="-DNOUNCRYPT" />
+			<Add directory="../../../addons/ofxVTerrain/libs/src" />
+			<Add directory="../../../addons/ofxVTerrain/libs/src/vtlib" />
+			<Add directory="../../../addons/ofxVTerrain/libs/src/vtdata" />
+			<Add directory="../../../addons/ofxVTerrain/libs/src/unzip" />
+			<Add directory="../../../addons/ofxVTerrain/libs/src/minidata" />
+			<Add directory="src/xmlhelper" />
+			<Add directory="src/xmlhelper/include" />
+			<Add directory="../../../../../../../usr/local/include" />
+			<Add directory="../../../../../../../usr/include/gdal" />
+			<Add directory="../../../libs/openFrameworks" />
+			<Add directory="../../../libs/openFrameworks/3d" />
+			<Add directory="../../../libs/openFrameworks/app" />
+			<Add directory="../../../libs/openFrameworks/communication" />
+			<Add directory="../../../libs/openFrameworks/events" />
+			<Add directory="../../../libs/openFrameworks/gl" />
+			<Add directory="../../../libs/openFrameworks/graphics" />
+			<Add directory="../../../libs/openFrameworks/math" />
+			<Add directory="../../../libs/openFrameworks/sound" />
+			<Add directory="../../../libs/openFrameworks/types" />
+			<Add directory="../../../libs/openFrameworks/utils" />
+			<Add directory="../../../libs/openFrameworks/video" />
+			<Add directory="../../../libs/glew/include" />
+			<Add directory="../../../libs/glu/include" />
+			<Add directory="../../../libs/glut/include" />
+			<Add directory="../../../libs/portaudio/include" />
+			<Add directory="../../../libs/poco/include" />
+			<Add directory="../../../../../../../usr/include" />
+			<Add directory="../../../../../../../usr/include/GL" />
+			<Add directory="../../../libs/tess2/include" />
+			<Add directory="../../../libs/cairo/include/cairo" />
+			<Add directory="../../../libs/kiss/include" />
+			<Add directory="../../../libs/freetype/include" />
+			<Add directory="../../../libs/FreeImage/include" />
+			<Add directory="../../../libs/videoInput/include" />
+			<Add directory="../../../../../../../usr/include/gstreamer-0.10" />
+			<Add directory="../../../../../../../usr/include/glib-2.0" />
+			<Add directory="../../../../../../../usr/include/gtk-2.0/gtk" />
+			<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+			<Add directory="../../../addons/ofxVTerrain/src" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="../../../addons/ofxVTerrain/libs/src/unzip" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option='&quot;-Wl,-O1 -Wl,--as-needed&quot;' />
+			<Add library="png" />
+			<Add library="jpeg" />
+			<Add library="osg" />
+			<Add library="OpenThreads" />
+			<Add library="gdal" />
+			<Add library="Mini" />
+			<Add library="osgDB" />
+			<Add library="osgSim" />
+			<Add library="osgTerrain" />
+			<Add library="osgText" />
+			<Add library="osgUtil" />
+			<Add library="osgShadow" />
+			<Add library="osgGA" />
+			<Add library="osgParticle" />
+			<Add library="osgViewer" />
+			<Add library="bz2" />
+			<Add library="../../../addons/ofxVTerrain/libs/lib/libminidata.a" />
+			<Add library="../../../addons/ofxVTerrain/libs/lib/libunzip.a" />
+			<Add library="../../../addons/ofxVTerrain/libs/lib/libvtlib.a" />
+			<Add library="../../../addons/ofxVTerrain/libs/lib/libxmlhelper.a" />
+			<Add library="../../../addons/ofxVTerrain/libs/lib/libvtdata.a" />
+			<Add library="GLU" />
+			<Add library="GL" />
+			<Add library="glut" />
+			<Add library="GLEW" />
+			<Add library="freeimage" />
+			<Add library="cairo" />
+			<Add library="openal" />
+			<Add library="mpg123" />
+			<Add library="sndfile" />
+			<Add library="../../../libs/kiss/lib/linux64/libkiss.a" />
+			<Add library="../../../libs/freetype/lib/linux64/libfreetype.a" />
+			<Add library="../../../libs/poco/lib/linux64/libPocoNet.a" />
+			<Add library="../../../libs/poco/lib/linux64/libPocoUtil.a" />
+			<Add library="../../../libs/poco/lib/linux64/libPocoFoundation.a" />
+			<Add library="../../../libs/tess2/lib/linux64/libtess2.a" />
+			<Add library="curl" />
+			<Add library="../../../../../../../usr/lib/x86_64-linux-gnu/libz.a" />
+			<Add library="udev" />
+			<Add library="zzip" />
+			<Add library="m" />
+			<Add library="z" />
+			<Add library="rt" />
+			<Add directory="../../../../../../../usr/lib/x86_64-linux-gnu" />
+		</Linker>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/minidata/LocalDatabuf.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/minidata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/minidata/LocalDatabuf.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/minidata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/minidata/MiniDatabuf.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/minidata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/minidata/MiniDatabuf.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/minidata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/minidata/jpegbase.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/minidata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/minidata/jpegbase.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/minidata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/minidata/minidata.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/minidata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/minidata/pngbase.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/minidata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/minidata/pngbase.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/minidata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/minidata/zlibbase.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/minidata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/minidata/zlibbase.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/minidata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/unzip/ioapi.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/unzip" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/unzip/iowin32.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/unzip" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/unzip/unzip.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/unzip" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Array.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Building.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Building.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/ByteOrder.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/ByteOrder.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/ChunkLOD.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/ChunkLOD.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/ChunkUtil.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/ChunkUtil.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Content.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Content.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/CubicSpline.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/CubicSpline.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/DLG.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/DLG.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/DataPath.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/DataPath.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/DxfParser.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/DxfParser.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/EPSG_Datums.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/ElevationGrid.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/ElevationGrid.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/ElevationGridBT.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/ElevationGridDEM.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/ElevationGridIO.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/FeatureGeom.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Features.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Features.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Fence.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Fence.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/FilePath.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/FilePath.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/GEOnet.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/GEOnet.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Geodesic.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/GnsCodes.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/HeightField.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/HeightField.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Icosa.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Icosa.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/LULC.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/LULC.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/LevellerTag.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/LevellerTag.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/LocalConversion.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/LocalConversion.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Mainpage.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/MathTypes.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/MathTypes.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Matrix.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Plants.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Plants.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/PolyChecker.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/PolyChecker.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Projections.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Projections.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/QuikGrid.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/QuikGrid.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/RoadMap.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/RoadMap.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/SOG.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/SPA.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/SPA.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Selectable.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/StatePlane.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/StructArray.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/StructArray.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/StructImport.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Structure.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Structure.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Triangulate.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Triangulate.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/TripDub.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/TripDub.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Unarchive.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Unarchive.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/UtilityMap.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/UtilityMap.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Version.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Vocab.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/Vocab.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/WFSClient.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/WFSClient.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/config_vtdata.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/shapelib/shapefil.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata/shapelib" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/triangle/triangle.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata/triangle" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/triangle/triangle.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata/triangle" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/vtDIB.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/vtDIB.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/vtLog.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/vtLog.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/vtString.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/vtString.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/vtTime.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/vtTime.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/vtTin.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/vtTin.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/vtUnzip.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtdata/vtUnzip.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtdata" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/Mainpage.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/AbstractLayer.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/AbstractLayer.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/AnimPath.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/AnimPath.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/AttribMap.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/AttribMap.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/BruteTerrain.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/BruteTerrain.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Building3d.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Building3d.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/CarEngine.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/CarEngine.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Content3d.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Content3d.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Contours.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Contours.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/DynTerrain.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/DynTerrain.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Elastic.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Elastic.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Engine.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Engine.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Event.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/FP8.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/FelkelComponents.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/FelkelComponents.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/FelkelIntersection.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/FelkelIntersection.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/FelkelStraightSkeleton.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/FelkelStraightSkeleton.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Fence3d.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Fence3d.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/FrameTimer.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/FrameTimer.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/GeomUtil.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/GeomUtil.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Globe.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Globe.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/ImageSprite.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/ImageSprite.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/IntersectionEngine.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/IntersectionEngine.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Light.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Location.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Location.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/LodGrid.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/LodGrid.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/MapOverviewEngine.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/MapOverviewEngine.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/NavEngines.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/NavEngines.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/PagedLodGrid.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/PagedLodGrid.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/PickEngines.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/PickEngines.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Plants3d.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Plants3d.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Roads.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Roads.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Route.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Route.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/SMTerrain.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/SMTerrain.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/SRTerrain.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/SRTerrain.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/SkyDome.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/SkyDome.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/SpaceNav.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/SpaceNav.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Structure3d.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Structure3d.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TParams.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TParams.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TVTerrain.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TVTerrain.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TemporaryGraphicsContext.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TemporaryGraphicsContext.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Terrain.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Terrain.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TerrainLayers.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TerrainLayers.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TerrainScene.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TerrainScene.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TextureUnitManager.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TextureUnitManager.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TiledGeom.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TiledGeom.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TimeEngines.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/TimeEngines.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Vehicles.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/Vehicles.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/vtSOG.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/vtSOG.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/vtTin3d.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/vtTin3d.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/core/winglue.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/core" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/pre.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtlib.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/ExternalHeightField3d.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/ExternalHeightField3d.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/GeometryUtils.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/GeometryUtils.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/GroupLOD.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/GroupLOD.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/ImageOSG.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/ImageOSG.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/LightSpacePerspectiveShadowTechnique.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/LightSpacePerspectiveShadowTechnique.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/Material.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/Material.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/MathOSG.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/Mesh.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/Mesh.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/NodeLog.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/NodeOSG.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/NodeOSG.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/OSGEventHandler.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/OSGEventHandler.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/SaveImageOSG.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/SaveImageOSG.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/SceneOSG.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/SceneOSG.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/ScreenCaptureHandler.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/ScreenCaptureHandler.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/SimpleInterimShadowTechnique.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/SimpleInterimShadowTechnique.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/StructureShadowsOSG.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/StructureShadowsOSG.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/VisualImpactCalculatorOSG.cpp">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/libs/src/vtlib/vtosg/VisualImpactCalculatorOSG.h">
+			<Option virtualFolder="addons/ofxVTerrain/libs/src/vtlib/vtosg" />
+		</Unit>
+		<Unit filename="../../../addons/ofxVTerrain/src/ofxAppVTerrainWindow.cpp" />
+		<Unit filename="../../../addons/ofxVTerrain/src/ofxAppVTerrainWindow.h" />
+		<Unit filename="../../../addons/ofxVTerrain/src/ofxOsgApp.cpp" />
+		<Unit filename="../../../addons/ofxVTerrain/src/ofxOsgApp.h" />
+		<Unit filename="../../../addons/ofxVTerrain/src/ofxVTerrain.cpp" />
+		<Unit filename="../../../addons/ofxVTerrain/src/ofxVTerrain.h" />
+		<Unit filename="config.make">
+			<Option virtualFolder="build config" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/testApp.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/testApp.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/xmlhelper/easyxml.cpp">
+			<Option virtualFolder="src/xmlhelper" />
+		</Unit>
+		<Unit filename="src/xmlhelper/easyxml.hpp">
+			<Option virtualFolder="src/xmlhelper" />
+		</Unit>
+		<Unit filename="src/xmlhelper/exception.cpp">
+			<Option virtualFolder="src/xmlhelper" />
+		</Unit>
+		<Unit filename="src/xmlhelper/exception.hpp">
+			<Option virtualFolder="src/xmlhelper" />
+		</Unit>
+		<Unit filename="src/xmlhelper/hashtable.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="src/xmlhelper" />
+		</Unit>
+		<Unit filename="src/xmlhelper/widestring.cpp">
+			<Option virtualFolder="src/xmlhelper" />
+		</Unit>
+		<Unit filename="src/xmlhelper/widestring.h">
+			<Option virtualFolder="src/xmlhelper" />
+		</Unit>
+		<Unit filename="src/xmlhelper/xmlparse.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="src/xmlhelper" />
+		</Unit>
+		<Unit filename="src/xmlhelper/xmlrole.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="src/xmlhelper" />
+		</Unit>
+		<Unit filename="src/xmlhelper/xmltok.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="src/xmlhelper" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1">
+				<lib name="glew" />
+				<lib name="glu" />
+				<lib name="gl" />
+				<lib name="gtk+-x11-2.0" />
+				<lib name="zlib" />
+				<lib name="libudev" />
+				<lib name="glib-2.0" />
+				<lib name="cppunit" />
+			</lib_finder>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

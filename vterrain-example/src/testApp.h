@@ -37,8 +37,5 @@ class testApp : public ofBaseApp, public ofxOsgApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 
-		//vtTerrainScene *g_terrscene;
-
-		ofxVTerrain terrain;
 
 };

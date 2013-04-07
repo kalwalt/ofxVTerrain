@@ -289,7 +289,7 @@ ofxAppVTerrainWindow::ofxAppVTerrainWindow()
     _frameNumber(0),
     _frameRate(60.0),
     _lastFrameTime(0.0),
-	_pScene(vtGetScene())
+	m_Scene(vtGetScene())
 {
 }
 
@@ -439,6 +439,7 @@ void ofxAppVTerrainWindow::toggleFullscreen()
 
 void ofxAppVTerrainWindow::runAppViaInfiniteLoop(ofBaseApp * appPtr)
 {
+
     if (appPtr == NULL)
         return;
 
@@ -492,9 +493,11 @@ void ofxAppVTerrainWindow::runAppViaInfiniteLoop(ofBaseApp * appPtr)
 	_view->addEventHandler(pHandler);
 
 	// Look up the camera
-	vtCamera *pCamera = _pScene->GetCamera();
-	pCamera->SetHither(10);
-	pCamera->SetYon(100000);
+
+	m_Camera = m_Scene->GetCamera();
+	m_Camera->SetHither(10);
+	m_Camera->SetYon(100000);
+	setmap(m_filename);
 
     // disable clear mask, as its done by OpenFrameworks
     _view->getCamera()->setClearMask(0x0);
@@ -543,10 +546,81 @@ void ofxAppVTerrainWindow::runAppViaInfiniteLoop(ofBaseApp * appPtr)
     _view = NULL;
     viewer = NULL;
 
-	g_terrscene->CleanupScene();
-	delete g_terrscene;
+	m_terrscene->CleanupScene();
+	delete m_terrscene;
 
 	vtGetScene()->Shutdown();
 
     OF_EXIT_APP(0);
+}
+
+
+void ofxAppVTerrainWindow::setmap(char* filenameMap){
+
+    // Log messages to make troubleshooting easier
+	VTSTARTLOG("debug.txt");
+	VTLOG("vTerrainExample\n");
+
+    // The  terrain scene will contain all the terrains that are created.
+	m_terrscene = new vtTerrainScene;
+
+	// Set the global data path to look in the many places the sample data might be
+	vtStringArray paths;
+	paths.push_back(vtString("../../../data/"));
+	paths.push_back(vtString("../../data/"));
+	paths.push_back(vtString("../data/"));
+	paths.push_back(vtString("data/"));
+	vtSetDataPath(paths);
+
+	// Begin creating the scene, including the sun and sky
+	vtGroup *pTopGroup = m_terrscene->BeginTerrainScene();
+
+	// Tell the scene graph to point to this terrain scene
+	m_Scene->SetRoot(pTopGroup);
+
+	vtString pfile = FindFileOnPaths(vtGetDataPath(), filenameMap);
+	if (pfile == "")
+	{
+		printf("Couldn't find terrain parameters Simple.xml\n");
+
+	}
+
+	// Create a new vtTerrain, read its parameters from a file
+	vtTerrain *pTerr = new vtTerrain;
+	pTerr->SetParamFile(pfile);
+	pTerr->LoadParams();
+
+	// Add the terrain to the scene, and contruct it
+	m_terrscene->AppendTerrain(pTerr);
+	if (!m_terrscene->BuildTerrain(pTerr))
+	{
+		printf("Terrain creation failed: %s\n", (const char *)pTerr->GetLastError());
+
+	}
+	m_terrscene->SetCurrentTerrain(pTerr);
+
+	// Create a navigation engine to move around on the terrain
+	// Get flight speed from terrain parameters
+	float fSpeed = pTerr->GetParams().GetValueFloat(STR_NAVSPEED);
+
+	vtTerrainFlyer *pFlyer = new vtTerrainFlyer(fSpeed);
+	pFlyer->AddTarget(m_Camera);
+	pFlyer->SetHeightField(pTerr->GetHeightField());
+	m_Scene->AddEngine(pFlyer);
+
+	// Minimum height over terrain is 100 m
+	vtHeightConstrain *pConstrain = new vtHeightConstrain(100);
+	pConstrain->AddTarget(m_Camera);
+	pConstrain->SetHeightField(pTerr->GetHeightField());
+	m_Scene->AddEngine(pConstrain);
+
+	VTLOG("Done creating scene.\n");
+
+
+}
+
+void ofxAppVTerrainWindow::setMap(char* filename){
+
+   m_filename = filename ;
+
 }
