@@ -4,21 +4,6 @@
 #include "ofxOsgApp.h"
 #include "ofxVTerrain.h"
 
-#include <osgViewer/Viewer>
-#include <osg/Geode>
-#include <osg/ShapeDrawable>
-#include <osg/Shape>
-#include <osgGA/TrackballManipulator>
-
-
-#include "vtlib/vtlib.h"
-#include "vtlib/core/Terrain.h"
-#include "vtlib/core/TerrainScene.h"
-#include "vtlib/core/NavEngines.h"
-#include "vtlib/vtosg/OSGEventHandler.h"
-#include "vtdata/DataPath.h"
-#include "vtdata/vtLog.h"
-
 class testApp : public ofBaseApp, public ofxOsgApp{
 
 	public:
