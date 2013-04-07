@@ -8,6 +8,7 @@
 //  partially source derived by ofxOpenSceneGraph addon
 //  Created by Stephan Huber on 26.03.11.
 //  Copyright 2011 Digital Mind. All rights reserved.
+//
 
 #ifndef OF_APP_OSG_WINDOW_HEADER
 #define OF_APP_OSG_WINDOW_HEADER
