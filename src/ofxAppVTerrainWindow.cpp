@@ -1,10 +1,15 @@
 //
-//  ofxAppOsgWindow.cpp
+//  ofxAppVTerrainWindow.cpp
 //  emptyExample
 //
+//  Created by Walter Perdan on 07.04.13.
+//  Copyright 2013 Kalwaltart. All rights reserved.
+//
+//  partially source derived by ofxOpenSceneGraph addon
 //  Created by Stephan Huber on 26.03.11.
 //  Copyright 2011 Digital Mind. All rights reserved.
 //
+
 #include "ofMain.h"
 #include "ofxAppVTerrainWindow.h"
 #include "ofBaseApp.h"
