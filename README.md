@@ -10,25 +10,25 @@ Windows
 
 You will find a visual studio solution in the vterrain-example/src folder. You need to adjust Osg src and static lib. Needed also gdal and libMini, lippng,libjpeg. i used Osg binaries from here: 
 		
-		http://www.alphapixel.com/osg/downloads/free-openscenegraph-binary-downloads
+	http://www.alphapixel.com/osg/downloads/free-openscenegraph-binary-downloads
 
 i used the 32 bit version.
  
 gdal and other libs from OSGeo4W:
 
-		http://trac.osgeo.org/osgeo4w/
+	http://trac.osgeo.org/osgeo4w/
 
 libMini (MINI-10.9.zip) and libMini prebuilt binaries dependencies(libpng,libjpeg,zlib..):
 
-		https://code.google.com/p/libmini/downloads
+	https://code.google.com/p/libmini/downloads
 
 if you want build yourself the vTerrain libraries grab the source from here:
 
-		http://vterrain.org/Download/
+	http://vterrain.org/Download/
 
 and don't forget to visit the main page:
 
-		http://vterrain.org
+	http://vterrain.org
 
 
 useful note : remember to exclude from source the files xmltok_impl.c and xmltok_ns.c 
@@ -44,15 +44,15 @@ You need Osg, gdal, libpng, lipjpeg, zlib you can install them from console
 
 libMini (MINI-10.9.zip) source :
 
-		https://code.google.com/p/libmini/downloads
+	https://code.google.com/p/libmini/downloads
 
 if you want build yourself the vTerrain libraries grab the source from here:
 
-		http://vterrain.org/Download/
+	http://vterrain.org/Download/
 
 and don't forget to visit the main page:
 
-		http://vterrain.org
+	http://vterrain.org
 
 To use
 ======
@@ -100,6 +100,15 @@ in testApp.cpp just remember to add in update:
     		vtGetScene()->DoUpdate();
 
 		}
+
+Data
+====
+
+You can use the data bundled with the vtp SDK download them from here :
+
+	http://vterrain.org/dist/vtp-apps-data-130201.zip
+
+You must follow the vTerrain convention, for this reason i suggest to use the data above as a starting point to be friendly with.
 
 
 
