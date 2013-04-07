@@ -1,14 +1,14 @@
 ofxVTerrain
 ===========
 
-openframeworks addon for terrain rendering with vTerrain library. You can build your terrain map with the vTerrain tools and save it in a .xml file.
+openframeworks addon for terrain rendering with vTerrain library. You can customize your terrain map with the vTerrain tools and save the project in an .xml file.
 Then you can import it with ofxVTerrain addon in OpenFrameworks. This is still a work in progress!!
 
 
 Windows
 =======
 
-you will find a visual studio solution in the vterrain-example/src folder. You need to adjust Osg src and static lib. Needed also gdal and libMini, lippng,libjpeg. i used Osg binaries from here: 
+You will find a visual studio solution in the vterrain-example/src folder. You need to adjust Osg src and static lib. Needed also gdal and libMini, lippng,libjpeg. i used Osg binaries from here: 
 		
 		http://www.alphapixel.com/osg/downloads/free-openscenegraph-binary-downloads
 
@@ -106,7 +106,7 @@ in testApp.cpp just remember to add in update:
 
 This little guide is going to be improved and i need to verify a lot of things in the addons.
 
-any feedeback is welcome! and also collaborations!
+Any feedback is welcome! and also collaborations!
 
 
 
