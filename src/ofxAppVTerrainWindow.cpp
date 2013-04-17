@@ -178,31 +178,31 @@ public:
 
         switch(ea.getEventType()) {
             case osgGA::GUIEventAdapter::MOVE:
-                notifyMouseMoved(_app, x, y);
+                ofNotifyMouseMoved(x, y);
                 break;
 
             case osgGA::GUIEventAdapter::DRAG:
-                notifyMouseDragged(_app, x, y, ea.getButton());
+                ofNotifyMouseDragged(x, y, ea.getButton());
                 break;
 
             case osgGA::GUIEventAdapter::PUSH:
-                notifyMousePressed(_app, x, y, ea.getButton());
+                ofNotifyMousePressed(x, y, ea.getButton());
                 break;
 
             case osgGA::GUIEventAdapter::RELEASE:
-                notifyMouseReleased(_app, x, y, ea.getButton());
+                ofNotifyMouseReleased(x, y, ea.getButton());
                 break;
 
             case osgGA::GUIEventAdapter::KEYDOWN:
-                notifyKeyPressed(_app, ea.getKey());
+                ofNotifyKeyPressed(ea.getKey());
                 break;
 
             case osgGA::GUIEventAdapter::KEYUP:
-                notifyKeyReleased(_app, ea.getKey());
+                ofNotifyKeyReleased(ea.getKey());
                 break;
 
             case osgGA::GUIEventAdapter::RESIZE:
-				notifyWindowResized(_app, ea.getWindowWidth(), ea.getWindowHeight());
+		ofNotifyWindowResized(ea.getWindowWidth(), ea.getWindowHeight());
                 break;
 
             default:
@@ -231,6 +231,7 @@ public:
     virtual void operator()(osg::RenderInfo &renderInfo) const
     {
         glPushAttrib(GL_ALL_ATTRIB_BITS);
+	glPushClientAttrib(GL_CLIENT_ALL_ATTRIB_BITS);
 
         int width, height;
 
@@ -239,7 +240,7 @@ public:
 
         height = height > 0 ? height : 1;
         // set viewport, clear the screen
-        glViewport( 0, 0, width, height );
+        ofViewport( 0, 0, width, height );
         float * bgPtr = ofBgColorPtr();
         bool bClearAuto = ofbClearBg();
 
@@ -253,16 +254,16 @@ public:
 #endif
 
         if ( bClearAuto == true || _frameCount < 3){
-            glClearColor(bgPtr[0],bgPtr[1],bgPtr[2], bgPtr[3]);
-            glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-        }
+             ofClear(bgPtr[0]*255,bgPtr[1]*255,bgPtr[2]*255, bgPtr[3]*255);
 
-        if(_app->setupScreenEnabled())
-            ofSetupScreen();
+	}
 
 
-        notifyDraw( _app->getApp());
+       if(_app->setupScreenEnabled()) ofSetupScreen();
 
+        ofNotifyDraw();
+
+        glPopClientAttrib();
         glPopAttrib();
 
         osg::Timer_t tick = _t.tick();
@@ -291,6 +292,7 @@ ofxAppVTerrainWindow::ofxAppVTerrainWindow()
 :   _view(NULL),
     _app(NULL),
     _setupScreen(true),
+    _fullscreen(false),
     _frameNumber(0),
     _frameRate(60.0),
     _lastFrameTime(0.0),
@@ -313,6 +315,21 @@ void ofxAppVTerrainWindow::setupOpenGL(int w, int h, int screenMode)
         wsi->setScreenResolution(0, w, h);
     }
 	vtGetScene()->Init(fake_argc, fake_argv);
+
+	_view = new osgViewer::View();
+
+    if(_screenMode == OF_FULLSCREEN || _screenMode == OF_GAME_MODE)
+    {
+       _view->setUpViewOnSingleScreen();
+    }
+    else
+    {
+        _view->setUpViewInWindow(0, 0, _w, _h);
+    }
+    _view->getCamera()->getGraphicsContext()->realize();
+    _view->getCamera()->getGraphicsContext()->makeCurrent();
+
+
 }
 
 
@@ -403,6 +420,10 @@ ofPoint	ofxAppVTerrainWindow::getWindowSize()
 
 void ofxAppVTerrainWindow::setFullscreen(bool fullscreen)
 {
+    if (fullscreen == _fullscreen) return;
+
+    _fullscreen = fullscreen;
+
 
     int x, y;
     unsigned int w, h;
@@ -524,11 +545,11 @@ void ofxAppVTerrainWindow::runAppViaInfiniteLoop(ofBaseApp * appPtr)
 	vtGetScene()->GetWindowSizeFromOSG();
 
     // notify app
-    notifySetup(appPtr);
+    ofNotifySetup();
 
     // run
     while(!viewer->done()) {
-        notifyUpdate(appPtr);
+        ofNotifyUpdate();
         viewer->frame();
     }
 
@@ -536,13 +557,16 @@ void ofxAppVTerrainWindow::runAppViaInfiniteLoop(ofBaseApp * appPtr)
     _view->getCamera()->getGraphicsContext()->makeCurrent();
 
     //notify exit
-    notifyExit(appPtr);
+    ofNotifyExit();
 
     // delete app now, because some of-objects assume a valid graphcis-context
     delete appPtr;
 
+    ofSetAppPtr(ofPtr<ofBaseApp>());
+
+
     // set app-ptr to NULL
-    ofRunApp(NULL);
+    //ofRunApp(NULL);
 
     // clear view + viewer
     _view->getCamera()->setPreDrawCallback(NULL);

@@ -64,6 +64,10 @@ public:
 
     inline bool setupScreenEnabled() const { return _setupScreen; }
 
+ 	virtual int		getWidth(){ return _w; }
+	virtual int		getHeight(){ return _h; }
+
+
     //specific vTerrain settings
 
     void setMap(char* filename);
@@ -79,7 +83,9 @@ protected:
     osg::ref_ptr<osgViewer::View> _view;
     ofBaseApp*                     _app;
     unsigned int _w, _h;
-    bool    _setupScreen;
+    bool    _setupScreen, _fullscreen;
+
+
 
     int _frameNumber;
     float _frameRate;
