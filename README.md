@@ -1,7 +1,7 @@
 ofxVTerrain
 ===========
 
-openframeworks addon for terrain rendering with vTerrain library. You can customize your terrain map with the vTerrain tools and save the project in an .xml file.
+openframeworks addon for terrain rendering with vTerrain library http://vterrain.org. You can customize your terrain map with the vTerrain tools and save the project in an .xml file.
 Then you can import it with ofxVTerrain addon in OpenFrameworks. This is still a work in progress!!
 
 
